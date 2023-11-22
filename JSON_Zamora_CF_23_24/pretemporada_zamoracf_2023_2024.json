@@ -1,0 +1,130 @@
+[
+  {
+      "ID": 1,
+      "Fecha del partido": "2023-08-05",
+      "Hora del partido": "20:00 horas",
+      "Equipos": {
+          "Local": "Zamora Club de Fútbol S.A.D",
+          "Visitante": "Unionistas de Salamanca Club de Fútbol"
+      },
+      "Estadio": "Ruta de la Plata",
+      "Goles": {
+          "Zamora Club de Fútbol S.A.D": 0,
+          "Unionistas de Salamanca Club de Fútbol": 5
+      },
+      "Goleadores": {
+          "Zamora Club de Fútbol S.A.D": [],
+          "Unionistas de Salamanca Club de Fútbol": ["Carlos Gimenez", "Manu Ramirez", "Álvaro Gómez", "Marco Slavy", "Alfred Planas"]
+      }
+  },
+  {
+      "ID": 2,
+      "Fecha del partido": "2023-08-12",
+      "Hora del partido": "20:00 horas",
+      "Equipos": {
+          "Local": "Zamora Club de Fútbol S.A.D",
+          "Visitante": "Sociedad Deportiva Ponferradina S.A.D"
+      },
+      "Estadio": "Ruta de la Plata",
+      "Goles": {
+          "Zamora Club de Fútbol S.A.D": 1,
+          "Sociedad Deportiva Ponferradina S.A.D": 1
+      },
+      "Goleadores": {
+          "Zamora Club de Fútbol S.A.D": ["Alejandro Morales"],
+          "Sociedad Deportiva Ponferradina S.A.D": ["Nil Jimenez"]
+      }
+  },
+  {
+      "ID": 3,
+      "Fecha del partido": "2023-08-16",
+      "Hora del partido": "19:00 horas",
+      "Equipos": {
+          "Local": "Club Deportivo Guijuelo",
+          "Visitante": "Zamora Club de Fútbol S.A.D"
+      },
+      "Estadio": "Estadio Municipal Luis Ramos",
+      "Comentarios sobre el partido": "Memorial Agustin Villar 2023",
+      "Goles": {
+          "Club Deportivo Guijuelo": 1,
+          "Zamora Club de Fútbol S.A.D": 1
+      },
+      "Goleadores": {
+          "Club Deportivo Guijuelo": ["Toti Garcia"],
+          "Zamora Club de Fútbol S.A.D": ["Markel Goñi"]
+      }
+  },
+  {
+      "ID": 4,
+      "Fecha del partido": "2023-08-19",
+      "Hora del partido": "20:00 horas",
+      "Equipos": {
+          "Local": "Zamora Club de Fútbol S.A.D",
+          "Visitante": "Salamanca Club de Fútbol UDS"
+      },
+      "Estadio": "Ruta de la Plata",
+      "Comentarios sobre el partido": "Tres asistencias de Alejandro Morales",
+      "Goles": {
+          "Zamora Club de Fútbol S.A.D": 5,
+          "Salamanca Club de Fútbol UDS": 0
+      },
+      "Goleadores": {
+          "Zamora Club de Fútbol S.A.D": ["Kun Temenuzhkov", "Luis Rivas", "Adrián Bolo", "Óscar Cruz", "Markel Goñi"],
+          "Salamanca Club de Fútbol UDS": []
+      }
+  },
+  {
+      "ID": 5,
+      "Fecha del partido": "2023-08-23",
+      "Hora del partido": "20:00 horas",
+      "Equipos": {
+          "Local": "Zamora Club de Fútbol S.A.D",
+          "Visitante": "Real Ávila Club de Fútbol S.A.D"
+      },
+      "Estadio": "Ruta de la Plata",
+      "Goles": {
+          "Zamora Club de Fútbol S.A.D": 2,
+          "Real Ávila Club de Fútbol S.A.D": 0
+      },
+      "Goleadores": {
+          "Zamora Club de Fútbol S.A.D": ["Alejandro Morales", "Julen Castañeda"],
+          "Real Ávila Club de Fútbol S.A.D": []
+      }
+  },
+  {
+      "ID": 6,
+      "Fecha del partido": "2023-08-24",
+      "Hora del partido": "19:30 horas",
+      "Equipos": {
+          "Local": "Gimnástica Segoviana Club de Fútbol",
+          "Visitante": "Zamora Club de Fútbol S.A.D"
+      },
+      "Estadio": "La Albuera",
+      "Goles": {
+          "Gimnástica Segoviana Club de Fútbol": 0,
+          "Zamora Club de Fútbol S.A.D": 2
+      },
+      "Goleadores": {
+          "Gimnástica Segoviana Club de Fútbol": [],
+          "Zamora Club de Fútbol S.A.D": ["Kun Temenuzhkov", "Kun Temenuzhkov"]
+      }
+  },
+  {
+      "ID": 7,
+      "Fecha del partido": "2023-10-04",
+      "Hora del partido": "12:00 horas",
+      "Equipos": {
+          "Local": "Zamora Club de Fútbol S.A.D",
+          "Visitante": "Cultural y Deportiva Leonesa S.A.D"
+      },
+      "Estadio": "Ruta de la Plata",
+      "Goles": {
+          "Zamora Club de Fútbol S.A.D": 0,
+          "Cultural y Deportiva Leonesa S.A.D": 0
+      },
+      "Goleadores": {
+          "Zamora Club de Fútbol S.A.D": [],
+          "Cultural y Deportiva Leonesa S.A.D": ["Carlos Calderón"]
+      }
+  }
+]

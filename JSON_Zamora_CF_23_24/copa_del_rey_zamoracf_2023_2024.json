@@ -1,0 +1,73 @@
+[
+
+{
+  "id": 1,
+  "fecha": "2023-11-01",
+  "hora": "17:30",
+
+  "equipos": {
+    "local": "Zamora C.F",
+    "visitante": "Racing de Santander"
+  },
+
+  "estadio": "Ruta de la Plata",
+
+  "resultado": {
+    "local": 2,
+    "visitante": 2
+  },
+
+  "goles": {
+    "local": [
+      {"jugador": "Luismi Luengo"},
+      {"jugador": "Carlos Ramos"}
+  ],
+    "visitante": [
+      {"jugador": "Andrés Martín"},
+      {"jugador": "Peque"}]
+  },
+
+  "asistencias": {
+    "local": [{"jugador": "Carlos Ramos"}],
+    "visitante": []
+  },
+
+  "notas": [
+    "Primera ronda de la Copa del Rey 2023-2024",
+    "El Zamora C.F ganó en los penaltis 4 a 3"
+  ]
+},
+
+{
+  "id": 2,
+  "fecha": "2023-11-22",
+  "hora": "21:00",
+
+  "equipos": {
+    "local": "Zamora C.F",
+    "visitante": "Villarreal C.F"
+  },
+
+  "estadio": "Ruta de la Plata",
+
+  "resultado": {
+    "local": 0,
+    "visitante": 0
+  },
+
+  "goles": {
+    "local": [],
+    "visitante": []
+  },
+
+  "asistencias": {
+    "local": [],
+    "visitante": []
+  },
+
+  "notas": [
+    "Segunda ronda de la Copa del Rey 2023-2024"
+  ]
+}
+
+]
