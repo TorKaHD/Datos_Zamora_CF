@@ -52,22 +52,32 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
 
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 2
             },
 
             "goles": {
-                "local": [],
-                "visitante": []
+                "local": [
+                    { "jugador": "Asier Etxaburu" }
+                ],
+                "visitante": [
+                    { "jugador": "José Luis Morales" },
+                    { "jugador": "José Luis Morales" }
+                ]
             },
 
             "asistencias": {
-                "local": [],
-                "visitante": []
+                "local": [
+                    { "jugador": "Roger Marcé" }
+                ],
+                "visitante": [
+                    { "jugador": "Étienne Capoue" }
+                ]
             },
 
             "notas": [
-                "Segunda ronda de la Copa del Rey 2023-2024"
+                "Segunda ronda de la Copa del Rey 2023-2024",
+                "El Zamora C.F quedó eliminado"
             ]
         }
     ];
