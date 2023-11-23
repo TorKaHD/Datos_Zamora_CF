@@ -1,6 +1,6 @@
-body {
+.fondo_pantalla {
 
-    background-color: #97a896;
+    background-color: #EFEBA1;
 
 }
 
@@ -20,13 +20,20 @@ h2 {
 
 }
 
+.logo_grande {
+
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
 p {
     margin: 5px 0;
     font-family: 'Carrois Gothic', sans-serif;
     text-align: center;
 }
 
-.inicio_pagina {
+.inicio_web {
 
     font-family: 'Carrois Gothic', sans-serif;
 

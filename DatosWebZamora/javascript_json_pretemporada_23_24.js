@@ -258,17 +258,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         div.innerHTML = `
             <h2><u>Partido ${partido.id}</u></h2>
-            <p class = "text-md-start p-1 bg-light border"><strong>Fecha: </strong>${partido.fecha}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Hora:</strong> ${partido.hora}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Equipos:</strong> ${partido.equipos.local} vs ${partido.equipos.visitante}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Estadio:</strong> ${partido.estadio}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Resultado:</strong> ${partido.resultado.local} - ${partido.resultado.visitante}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Goleadores Local:</strong> ${mostrarGoleadores(partido.goles.local)}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Goleadores Visitante:</strong> ${mostrarGoleadores(partido.goles.visitante)}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Asistencias Local:</strong> ${mostrarAsistencias(partido.asistencias.local)}</p>
-            <p class = "text-md-start p-1 bg-light border"><strong>Asistencias Visitante:</strong> ${mostrarAsistencias(partido.asistencias.visitante)}</p>
+            <p class = "text-md-start p-1 border"><strong>Fecha: </strong>${partido.fecha}</p>
+            <p class = "text-md-start p-1 border"><strong>Hora:</strong> ${partido.hora}</p>
+            <p class = "text-md-start p-1 border"><strong>Equipos:</strong> ${partido.equipos.local} vs ${partido.equipos.visitante}</p>
+            <p class = "text-md-start p-1 border"><strong>Estadio:</strong> ${partido.estadio}</p>
+            <p class = "text-md-start p-1 border"><strong>Resultado:</strong> ${partido.resultado.local} - ${partido.resultado.visitante}</p>
+            <p class = "text-md-start p-1 border"><strong>Goleadores Local:</strong> ${mostrarGoleadores(partido.goles.local)}</p>
+            <p class = "text-md-start p-1 border"><strong>Goleadores Visitante:</strong> ${mostrarGoleadores(partido.goles.visitante)}</p>
+            <p class = "text-md-start p-1 border"><strong>Asistencias Local:</strong> ${mostrarAsistencias(partido.asistencias.local)}</p>
+            <p class = "text-md-start p-1 border"><strong>Asistencias Visitante:</strong> ${mostrarAsistencias(partido.asistencias.visitante)}</p>
             ${mostrarNotas(partido.notas)}
-            <p class = "text-md-start p-1 bg-light border"><strong>----------</strong></p>
+            <p class = "text-md-start p-1 border"><strong>----------</strong></p>
             <!-- Personaliza la visualización de otros datos aquí -->
 
             <hr>
@@ -297,8 +297,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function mostrarNotas(notas) {
         if (notas && notas.length > 0) {
-            const notasHTML = notas.map(nota => `<p class = "text-md-start p-1 bg-light border">${nota}</p>`).join("");
-            return `<p class = "text-md-start p-1 bg-light border"><strong>Notas Adicionales:</strong></p>${notasHTML}`;
+            const notasHTML = notas.map(nota => `<p class = "text-md-start p-1 border">${nota}</p>`).join("");
+            return `<p class = "text-md-start p-1 border"><strong>Notas Adicionales:</strong></p>${notasHTML}`;
         } else {
             return "";
         }
