@@ -489,8 +489,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function mostrarNotas(notas) {
         if (notas && notas.length > 0) {
-            const notasHTML = notas.map(nota => `<p class = "text-md-start p-1 bg-light border">${nota}</p>`).join("");
-            return `<p class = "text-md-start p-1 bg-light border"><strong>Notas Adicionales:</strong></p>${notasHTML}`;
+            const notasHTML = notas.map(nota => `<p class = "text-md-start p-1 border">${nota}</p>`).join("");
+            return `<p class = "text-md-start p-1 border"><strong>Notas Adicionales:</strong></p>${notasHTML}`;
         } else {
             return "";
         }
