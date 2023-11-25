@@ -439,6 +439,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 14,
+          "fecha": "2023-12-02",
+          "hora": "16:45",
+        
+          "equipos": {
+            "local": "Real Valladolid C.F Promesas",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Anexos José Zorrilla",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
