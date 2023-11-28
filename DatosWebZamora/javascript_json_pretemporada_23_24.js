@@ -257,7 +257,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const div = document.createElement("div");
 
         div.innerHTML = `
-            <h2><u>Partido ${partido.id}</u></h2>
+            <header><h2><u>Partido ${partido.id}</u></h2></header>
+            <section>
             <p class = "text-md-start p-1 border"><strong>Fecha: </strong>${partido.fecha}</p>
             <p class = "text-md-start p-1 border"><strong>Hora:</strong> ${partido.hora}</p>
             <p class = "text-md-start p-1 border"><strong>Equipos:</strong> ${partido.equipos.local} vs ${partido.equipos.visitante}</p>
@@ -269,6 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <p class = "text-md-start p-1 border"><strong>Asistencias Visitante:</strong> ${mostrarAsistencias(partido.asistencias.visitante)}</p>
             ${mostrarNotas(partido.notas)}
             <p class = "text-md-start p-1 border"><strong>----------</strong></p>
+            </section>
             <!-- Personaliza la visualización de otros datos aquí -->
 
             <hr>
@@ -298,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function mostrarNotas(notas) {
         if (notas && notas.length > 0) {
             const notasHTML = notas.map(nota => `<p class = "text-md-start p-1 border">${nota}</p>`).join("");
-            return `<p class = "text-md-start p-1 border"><strong>Notas Adicionales:</strong></p>${notasHTML}`;
+            return `<section><p class = "text-md-start p-1 border"><strong>Notas Adicionales:</strong></p>${notasHTML}</section>`;
         } else {
             return "";
         }
