@@ -9,10 +9,6 @@
     <!-- Tailwind CSS -->
 
     <script src = "https://cdn.tailwindcss.com"></script>
-
-    <!-- Javascript Fade In imagen -->
-
-    <script src = "zona_pruebas.js"></script>
     
     <!-- CSS -->
 
@@ -24,15 +20,16 @@
     <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
 
 </head>
-<body>
 
-    <h1 class = "p-4 text-center text-3xl underline">Zona de pruebas</h1>
+<body class = "flex flex-col items-center min-h-screen bg-gray-100 pt-2.5">
 
     <div class = "flex justify-center items-center pt-3">
 
-        <img id = "myImage" class = "opacity-0 w-16 md:w-32 lg:w-48" src = "logo_zamora_200.png" alt = "Zamora Club de Fútbol" onload = "fadeIn(this)">
+        <img id = "myImage" class = "animate-fade-up w-16 md:w-32 lg:w-48" src = "logo_zamora_200.png" alt = "Zamora Club de Fútbol">
 
     </div>
+
+    <h1 class = "p-4 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl underline">Zona de pruebas</h1>
     
 </body>
 </html>
