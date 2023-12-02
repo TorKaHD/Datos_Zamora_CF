@@ -454,18 +454,22 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Anexos José Zorrilla",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
+            "local": 2,
+            "visitante": 1
           },
         
           "goles": {
-            "local": [],
-            "visitante": []
+            "local": [
+              
+              {"jugador": "Raúl Chasco"},
+              {"jugador": "Isra Salazar"}
+          ],
+            "visitante": [{"jugador": "Sergi Baldrich"}]
         },
         
           "asistencias": {
             "local": [],
-            "visitante": []
+            "visitante": [{"jugador": "Carlos Ramos"}]
           },
         
           "notas": []
