@@ -29,21 +29,43 @@
 </head>
 
 <body class = "bg-yellow-200/75 flex flex-col items-center min-h-screen bg-gray-100 pt-2.5">
-
-
+    
+    <nav class="flex items-center justify-start p-6 absolute top-0 left-0">
+        <div class="mr-6">
+            <a class="text-black hover:text-gray-500" href="#">Inicio</a>
+        </div>
+        <div class="dropdown inline-block relative">
+            <button class="text-black font-semibold py-2 px-4 rounded inline-flex items-center">
+                <span>Datos Zamora Club de fútbol</span>
+            </button>
+            <div class="dropdown-menu absolute hidden text-black pt-1">
+                <div class="dropdown inline-block relative">
+                    <a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Temporada 23/24</a>
+                    <div class="dropdown-menu absolute hidden text-black pt-1">
+                        <a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Pretemporada 23/24</a>
+                        <a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Copa del Rey 23/24</a>
+                        <a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Temporada 23/24</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+ 
     <figure><img id = "myImage" class = "animate-fade-up w-16 md:w-32 lg:w-48 flex justify-center items-center pt-3" src = "logo_zamora_200.png" alt = "Zamora Club de Fútbol"></figure>
 
-    <header><h1 class = "inicio_web text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl underline" style = "color: #3b1419"><strong>Zona de pruebas</strong></h1></header>
+    <header><h1 class = "inicio_web text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl underline" style = "font-family: 'Bebas Neue', sans-serif;"><u><strong>Centro de datos del Zamora Club de Fútbol</strong></u></h1></header>
 
     <section>
 
-    <p class = "p-4 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;">
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Erat imperdiet sed euismod nisi porta lorem. Semper eget duis at tellus at urna condimentum. At urna condimentum mattis pellentesque id nibh tortor id. Elementum eu facilisis sed odio morbi quis commodo odio. Non diam phasellus vestibulum lorem sed risus ultricies. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Tincidunt nunc pulvinar sapien et ligula ullamcorper. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Ac felis donec et odio pellentesque diam volutpat commodo. Feugiat pretium nibh ipsum consequat nisl vel. Senectus et netus et malesuada fames ac turpis egestas maecenas. Nascetur ridiculus mus mauris vitae. Odio tempor orci dapibus ultrices in iaculis nunc sed. Habitant morbi tristique senectus et netus et malesuada fames. Eget lorem dolor sed viverra ipsum nunc aliquet. In hac habitasse platea dictumst vestibulum rhoncus. Gravida rutrum quisque non tellus orci ac.
+    <p class = "p-4 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;">¡Bienvenido al centro de datos del <strong>Zamora Club de Fútbol</strong>!</p>
     
-    </p>
+    <p class = "p-4 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;">Sumérgete en la emocionante historia del <strong>Zamora Club de Fútbol</strong> a través de nuestra página web, donde te ofrecemos un viaje detallado temporada por temporada. Descubre los momentos inolvidables, las victorias épicas y las historias detrás de cada partido que ha forjado la grandeza de nuestro amado club.</p>
+    
+    <p class = "p-4 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;">Nuestra plataforma te brinda acceso exclusivo a estadísticas precisas, alineaciones, goleadores destacados y momentos destacados de cada temporada. Desde la temporada 2023 - 2024 del club hasta las hazañas más recientes, te invitamos a explorar la evolución del <strong>Zamora Club de Fútbol</strong> a lo largo de los años.</p>
 
     </section>
+
+    <script src="menu_desplegable.js"></script>
     
 </body>
 </html>
