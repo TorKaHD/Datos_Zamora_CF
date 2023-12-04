@@ -105,10 +105,11 @@ hr {
     animation: fade-up 2s ease-out forwards;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-menu .dropdown:hover .dropdown-menu {
-    display: block;
-}
+.dropdown-menu {
+    display: none;
+  }
+  
+  .show {
+    display: block !important;
+  }
+  

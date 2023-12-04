@@ -1,8 +1,12 @@
-document.querySelectorAll('.dropdown').forEach((dropdown) => {
-    dropdown.addEventListener('mouseenter', (e) => {
-        e.target.querySelector('.dropdown-menu').classList.remove('hidden');
+document.querySelectorAll('.dropdown').forEach(function(dropdown) {
+    dropdown.addEventListener('click', function(event) {
+        event.stopPropagation();
+        dropdown.querySelector('.dropdown-menu').classList.toggle('show');
     });
-    dropdown.addEventListener('mouseleave', (e) => {
-        e.target.querySelector('.dropdown-menu').classList.add('hidden');
+});
+
+window.addEventListener('click', function(e) {
+    document.querySelectorAll('.dropdown-menu.show').forEach(function(dropdown) {
+        dropdown.classList.remove('show');
     });
 });
