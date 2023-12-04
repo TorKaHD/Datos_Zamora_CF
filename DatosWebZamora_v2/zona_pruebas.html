@@ -34,35 +34,44 @@
 
 <body class = "bg-yellow-200/75 flex flex-col items-center min-h-screen bg-gray-100 pt-2.5">
     
-    <nav class = "flex items-center justify-start p-6 absolute top-0 left-0">
+    <nav class = "flex flex-col md:flex-row items-center justify-start p-6 absolute top-0 left-0">
+
         <div class = "mr-6">
-            <a class = "text-black hover:text-gray-500" href = "#" style = "font-size: large;font-family: 'Bebas Neue', sans-serif;letter-spacing: 0.10em;"><i class = "fa-solid fa-house fa-xl"></i> Inicio</a>
+
+            <a class = "text-black hover:text-gray-500 text-lg tracking-wider" style = "font-size: large;font-family: 'Bebas Neue', sans-serif;letter-spacing: 0.10em;color: #3b1419;" href = "#"><i class = "fa-solid fa-house fa-xl" style = "color: #3b1419;"></i> Inicio</a>
+        
         </div>
-
+    
         <div class = "dropdown inline-block relative">
-
+    
             <button class = "text-black font-semibold py-2 px-4 rounded inline-flex items-center">
-                <span>Datos Zamora Club de fútbol</span>
+
+                <span style = "color: #3b1419;">Datos Zamora C.F <i class = "fa-solid fa-caret-down" style = "color: #3b1419;"></i></span>
+
             </button>
-
+    
             <div class = "dropdown-menu absolute hidden text-black pt-1">
-
+    
                 <div class = "dropdown inline-block relative">
-                    <a class = "rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Temporada 23/24</a>
 
-                    <div class = "dropdown-menu absolute hidden text-black pt-1">
+                    <a class = "rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Temporada 23/24<i class = "fa-solid fa-caret-down" style = "padding-left: 5px; color: #3b1419;"></i></a>
+    
+                    <div class="dropdown-menu absolute hidden text-black pt-1">
+
                         <a class = "bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Pretemporada 23/24</a>
                         <a class = "bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Copa del Rey 23/24</a>
                         <a class = "rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Temporada 23/24</a>
+
                     </div>
-
+    
                 </div>
-
+    
             </div>
-
+    
         </div>
+
+    </nav>
         
-    </nav>    
  
     <figure><img id = "myImage" class = "animate-fade-up w-16 md:w-32 lg:w-48 flex justify-center items-center pt-3" src = "logo_zamora_200.png" alt = "Zamora Club de Fútbol"></figure>
 
