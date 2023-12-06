@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Pretemporada 23/24 - Datos Zamora Club de Fútbol</title>
+
+    <!-- CSS -->
+
+    <link rel = "stylesheet" type = "text/css" href = "css_pagina.css">
+
+    <!-- Font Awesome -->
+
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity = "sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin = "anonymous" referrerpolicy = "no-referrer" />
+
+       <!-- Tailwind CSS -->
+
+   <script src = "https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+
+    <!-- Bebas Neue -->
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+
+    <!-- Carrois Gothic -->
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel = "stylesheet">
+
+</head>
+
+<body class = "bg-yellow-200/75 flex flex-col items-center min-h-screen bg-gray-100 pt-2.5">
+
+  <nav class = "flex flex-col md:flex-row items-center justify-start p-6 absolute top-0 left-0">
+
+    <div class = "mr-6">
+
+        <a class = "text-black hover:text-gray-500 text-lg tracking-wider" style = "font-size: large;font-family: 'Bebas Neue', sans-serif;letter-spacing: 0.10em;color: #3b1419;" href = "inicio_web_v2.html"><i class = "fa-solid fa-house fa-xl" style = "color: #3b1419;"></i> Inicio</a>
+    
+    </div>
+
+    <div class = "dropdown inline-block relative">
+
+        <button class = "text-black font-semibold py-2 px-4 rounded inline-flex items-center">
+
+            <span style = "color: #3b1419;">Datos Zamora C.F <i class = "fa-solid fa-caret-down" style = "color: #3b1419;"></i></span>
+
+        </button>
+
+        <div class = "dropdown-menu absolute hidden text-black pt-1">
+
+            <div class = "dropdown inline-block relative">
+
+                <a class = "rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Temporada 23/24<i class = "fa-solid fa-caret-down" style = "padding-left: 5px; color: #3b1419;"></i></a>
+
+                <div class="dropdown-menu absolute hidden text-black pt-1">
+
+                    <a class = "bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "#">Pretemporada 23/24</a>
+                    <a class = "bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "copa_rey_23_24_zamora_v2.html">Copa del Rey 23/24</a>
+                    <a class = "rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href = "temporada_23_24_zamora_v2.html">Temporada 23/24</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<header class = "inicio_web text-gray-700 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl underline mt-20 pb-1">
+
+  <h1 class = "inicio_web text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl underline" style = "font-family: 'Bebas Neue', sans-serif;">Resultados de la pretemporada 23/24</h1>
+
+</header>
+
+    <div id = "jsonContainer">
+        <!-- Aquí se mostrará el JSON -->
+    </div>
+
+    <!-- Javascript propio -->
+    <script src = "menu_desplegable_v2.js"></script>
+    <script src = "javascript_json_pretemporada_23_24_v2.js"></script>
+
+</body>
+</html>
