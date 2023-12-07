@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const div = document.createElement("div");
 
         div.innerHTML = `
-            <header class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><h2><u>Partido ${partido.id}</u></h2></header>
+            <header><h2 class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><u>Partido ${partido.id}</u></h2></header>
             <section>
             <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Fecha: </strong>${partido.fecha}</p>
             <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Hora:</strong> ${partido.hora}</p>
