@@ -473,6 +473,66 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 15,
+          "fecha": "2023-12-10",
+          "hora": "17:30",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "Club Marino de Luanco"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
+        },
+
+        {
+          "id": 16,
+          "fecha": "2023-12-16",
+          "hora": "17:30",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "U.P Langreo"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": ["Último partido del año."]
         }
   
   ]
