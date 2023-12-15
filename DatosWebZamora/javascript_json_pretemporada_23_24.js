@@ -217,37 +217,66 @@ document.addEventListener("DOMContentLoaded", function () {
             },
       
             {
-              "id": 7,
-              "fecha": "2023-10-04",
-              "hora": "12:00",
-            
-              "equipos": {
-                  "local": "Zamora C.F",
-                  "visitante": "CyD Leonesa"
-              },
-            
-              "estadio": "Ruta de la Plata",
-            
-              "resultado": {
-                  "local": 0,
-                  "visitante": 1
-              },
-            
-              "goles": {
-                  "local": [],
-                  "visitante": [
-                      
-                      {"jugador": "Carlos Calderón"}
-                  
-                  ]
-              },
-            
-              "asistencias": {
-                  "local": [],
-                  "visitante": []
-              }
-      
-          }
+                "id": 7,
+                "fecha": "2023-10-04",
+                "hora": "12:00",
+              
+                "equipos": {
+                    "local": "Zamora C.F",
+                    "visitante": "CyD Leonesa"
+                },
+              
+                "estadio": "Ruta de la Plata",
+              
+                "resultado": {
+                    "local": 0,
+                    "visitante": 1
+                },
+              
+                "goles": {
+                    "local": [],
+                    "visitante": [
+                        
+                        {"jugador": "Carlos Calderón"}
+                    
+                    ]
+                },
+              
+                "asistencias": {
+                    "local": [],
+                    "visitante": []
+                },
+                "notas": []
+            },
+            {
+                "id": 8,
+                "fecha": "2023-12-20",
+                "hora": "20:00",
+              
+                "equipos": {
+                    "local": "C.D Benavente",
+                    "visitante": "Zamora C.F"
+                },
+              
+                "estadio": "Luciano Rubio",
+              
+                "resultado": {
+                    "local": 0,
+                    "visitante": 0
+                },
+              
+                "goles": {
+                    "local": [],
+                    "visitante": []
+                },
+              
+                "asistencias": {
+                    "local": [],
+                    "visitante": []
+                },
+              
+                "notas": ["75 Aniversario Club Deportivo Benvante"]
+            }
 
     ];
 
