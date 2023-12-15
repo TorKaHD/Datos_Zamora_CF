@@ -246,6 +246,36 @@
             "visitante": []
         }
 
-    }
+    },
+
+    {
+        "id": 8,
+        "fecha": "2023-12-20",
+        "hora": "20:00",
+      
+        "equipos": {
+            "local": "C.D Benavente",
+            "visitante": "Zamora C.F"
+        },
+      
+        "estadio": "Luciano Rubio",
+      
+        "resultado": {
+            "local": 0,
+            "visitante": 0
+        },
+      
+        "goles": {
+            "local": [],
+            "visitante": []
+        },
+      
+        "asistencias": {
+            "local": [],
+            "visitante": []
+        },
+      
+        "notas": ["75 Aniversario Club Deportivo Benvante"]
+      }
 
     ]
