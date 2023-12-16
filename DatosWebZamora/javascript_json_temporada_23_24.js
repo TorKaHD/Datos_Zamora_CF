@@ -518,17 +518,17 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Ruta de la Plata",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
+            "local": 1,
+            "visitante": 1
           },
         
           "goles": {
-            "local": [],
-            "visitante": []
+            "local": [{"jugador": "Sergi Baldrich"}],
+            "visitante": [{"jugador": "Nané"}]
         },
         
           "asistencias": {
-            "local": [],
+            "local": [{"jugador": "Dani Hernández"}],
             "visitante": []
           },
         
