@@ -532,6 +532,36 @@
       },
     
       "notas": ["Último partido del año."]
+    },
+
+    {
+      "id": 17,
+      "fecha": "2024-01-10",
+      "hora": "20:00",
+    
+      "equipos": {
+        "local": "Arandina C.F",
+        "visitante": "Zamora C.F"
+      },
+    
+      "estadio": "Complejo Deportivo Juan Carlos Higuero (El Montecillo)",
+    
+      "resultado": {
+        "local": 0,
+        "visitante": 0
+      },
+    
+      "goles": {
+        "local": [],
+        "visitante": []
+    },
+    
+      "asistencias": {
+        "local": [],
+        "visitante": []
+      },
+    
+      "notas": ["Primer partido del año."]
     }
 
 ]
