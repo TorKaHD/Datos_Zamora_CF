@@ -17,9 +17,13 @@
 
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity = "sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin = "anonymous" referrerpolicy = "no-referrer" />
 
-       <!-- Tailwind CSS -->
+    <!-- Tailwind CSS -->
 
    <script src = "https://cdn.tailwindcss.com"></script>
+
+   <!-- Ripple -->
+    
+   <script async src = "https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
 
     <!-- Google Fonts -->
 
@@ -41,17 +45,13 @@
 
     <div class = "mr-6">
 
-        <a class = "text-black hover:text-gray-500 text-lg tracking-wider" style = "font-size: large;font-family: 'Bebas Neue', sans-serif;letter-spacing: 0.10em;color: #3b1419;" href = "inicio_web_v2.html"><i class = "fa-solid fa-house fa-xl" style = "color: #3b1419;"></i> Inicio</a>
+        <a class = "text-black hover:text-yellow-950/75 text-lg tracking-wider text-yellow-950" style = "font-size: large;font-family: 'Bebas Neue', sans-serif;letter-spacing: 0.10em;" href = "inicio_web_v2.html"><i class = "fa-solid fa-house fa-xl text-yellow-950"></i> Inicio</a>
     
     </div>
 
     <div class = "dropdown inline-block relative">
 
-        <button class = "text-black font-semibold py-2 px-4 rounded inline-flex items-center">
-
-            <span style = "color: #3b1419;">Datos Zamora C.F <i class = "fa-solid fa-caret-down" style = "color: #3b1419;"></i></span>
-
-        </button>
+        <button type = "button" data-ripple-light = "true" class = "align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-yellow-950 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none">Datos Zamora C.F <i class = "fa-solid fa-caret-down" style = "color: #ffffff;"></i></button>
 
         <div class = "dropdown-menu absolute hidden text-black pt-1">
 

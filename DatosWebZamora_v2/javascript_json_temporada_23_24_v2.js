@@ -573,19 +573,19 @@ document.addEventListener("DOMContentLoaded", function () {
         const div = document.createElement("div");
 
         div.innerHTML = `
-            <header><h2 class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><u>Partido ${partido.id}</u></h2></header>
+            <header><h2 class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><u>Partido ${partido.id}</u></h2></header>
             <section>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Fecha: </strong>${partido.fecha}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Hora:</strong> ${partido.hora}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Equipos:</strong> ${partido.equipos.local} vs ${partido.equipos.visitante}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Estadio:</strong> ${partido.estadio}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Resultado:</strong> ${partido.resultado.local} - ${partido.resultado.visitante}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Goleadores Local:</strong> ${mostrarGoleadores(partido.goles.local)}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Goleadores Visitante:</strong> ${mostrarGoleadores(partido.goles.visitante)}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Asistencias Local:</strong> ${mostrarAsistencias(partido.asistencias.local)}</p>
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>Asistencias Visitante:</strong> ${mostrarAsistencias(partido.asistencias.visitante)}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Fecha: </strong>${partido.fecha}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Hora:</strong> ${partido.hora}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Equipos:</strong> ${partido.equipos.local} vs ${partido.equipos.visitante}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Estadio:</strong> ${partido.estadio}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Resultado:</strong> ${partido.resultado.local} - ${partido.resultado.visitante}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Goleadores Local:</strong> ${mostrarGoleadores(partido.goles.local)}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Goleadores Visitante:</strong> ${mostrarGoleadores(partido.goles.visitante)}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Asistencias Local:</strong> ${mostrarAsistencias(partido.asistencias.local)}</p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>Asistencias Visitante:</strong> ${mostrarAsistencias(partido.asistencias.visitante)}</p>
             ${mostrarNotas(partido.notas)}
-            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl" style = "color: #3b1419;"><strong>----------</strong></p>
+            <p class = "p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950"><strong>----------</strong></p>
             </section>
             <!-- Personaliza la visualización de otros datos aquí -->
 
