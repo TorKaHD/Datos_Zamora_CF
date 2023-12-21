@@ -262,12 +262,20 @@
       
         "resultado": {
             "local": 0,
-            "visitante": 0
+            "visitante": 5
         },
       
         "goles": {
             "local": [],
-            "visitante": []
+            "visitante": [
+
+                {"jugador": "Alejandro Morales"},
+                {"jugador": "Sergi Baldrich"},
+                {"jugador": "Luis Rivas"},
+                {"jugador": "Markel Goñi"},
+                {"jugador": "Dani Hernández"}
+
+            ]
         },
       
         "asistencias": {
