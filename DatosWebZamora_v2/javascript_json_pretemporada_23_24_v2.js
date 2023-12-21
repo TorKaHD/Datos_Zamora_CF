@@ -263,12 +263,20 @@ document.addEventListener("DOMContentLoaded", function () {
               
                 "resultado": {
                     "local": 0,
-                    "visitante": 0
+                    "visitante": 5
                 },
               
                 "goles": {
                     "local": [],
-                    "visitante": []
+                    "visitante": [
+        
+                        {"jugador": "Alejandro Morales"},
+                        {"jugador": "Sergi Baldrich"},
+                        {"jugador": "Luis Rivas"},
+                        {"jugador": "Markel Goñi"},
+                        {"jugador": "Dani Hernández"}
+        
+                    ]
                 },
               
                 "asistencias": {
@@ -277,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
               
                 "notas": ["75 Aniversario Club Deportivo Benvante"]
-            }
+              }
 
     ];
 
