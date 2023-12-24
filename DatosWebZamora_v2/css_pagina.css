@@ -36,7 +36,7 @@ p {
 .inicio_web {
 
     font-family: 'Carrois Gothic', sans-serif;
-
+    
 }
 
 hr {
@@ -106,10 +106,17 @@ hr {
 }
 
 .dropdown-menu {
+
     display: none;
+    
   }
   
   .show {
     display: block !important;
   }
-  
+
+.imagen_centro {
+
+    text-align: center;
+
+}
