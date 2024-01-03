@@ -138,3 +138,22 @@ hr {
     padding-right: 61%;
 
 }
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.parallaxBg {
+    /* The image used */
+    background-image: url("paralaje_zamora.png");
+
+    /* Full height */
+    height: 45%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
