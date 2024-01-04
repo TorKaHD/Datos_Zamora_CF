@@ -157,3 +157,21 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallaxBg2 {
+    /* The image used */
+    background-image: url("estadio_zamora.png");
+
+    /* Full height */
+    height: 45%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root {
+    --tri-base: 40px
+  }
