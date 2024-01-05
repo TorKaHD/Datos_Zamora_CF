@@ -588,8 +588,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="p-1 sm:text-sm md:text-base lg:text-lg xl:text-xl text-yellow-950 text-left"><strong>----------</strong></p>
           </section>
           <!-- Personaliza la visualización de otros datos aquí -->
-  
-          <hr>
+
       `;
   
       return div;

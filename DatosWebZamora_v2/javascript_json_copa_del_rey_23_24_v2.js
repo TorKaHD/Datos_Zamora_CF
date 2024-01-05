@@ -104,7 +104,6 @@ document.addEventListener("DOMContentLoaded", function () {
             </section>
             <!-- Personaliza la visualización de otros datos aquí -->
     
-            <hr>
         `;
     
         return div;
