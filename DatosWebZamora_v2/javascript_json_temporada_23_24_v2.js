@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
         "equipos": {
           "local": "Zamora C.F",
-          "visitante": "Cayón C.F"
+          "visitante": "C.D Cayón"
         },
       
         "estadio": "Ruta de la Plata",
@@ -562,7 +562,37 @@ document.addEventListener("DOMContentLoaded", function () {
             "visitante": []
           },
         
-          "notas": ["Primer partido del año."]
+          "notas": ["Primer partido del año. Final de la primera vuelta de Liga."]
+        },
+
+        {
+          "id": 18,
+          "fecha": "2024-01-14",
+          "hora": "12:00",
+        
+          "equipos": {
+            "local": "C.D Cayón",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Fernando Astobiza",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": ["Inicio de la segunda vuelta en Liga"]
         }
   
   ]
