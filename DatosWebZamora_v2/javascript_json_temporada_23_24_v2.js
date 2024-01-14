@@ -579,12 +579,12 @@ document.addEventListener("DOMContentLoaded", function () {
         
           "resultado": {
             "local": 0,
-            "visitante": 0
+            "visitante": 1
           },
         
           "goles": {
             "local": [],
-            "visitante": []
+            "visitante": [{"jugador": "Sergi Baldrich"}]
         },
         
           "asistencias": {
