@@ -592,7 +592,37 @@ document.addEventListener("DOMContentLoaded", function () {
             "visitante": []
           },
         
-          "notas": ["Inicio de la segunda vuelta en Liga"]
+          "notas": ["Inicio de la segunda vuelta en Liga."]
+        },
+
+        {
+          "id": 19,
+          "fecha": "2024-01-21",
+          "hora": "17:30",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "C.D Covadonga"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
