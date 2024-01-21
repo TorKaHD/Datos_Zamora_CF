@@ -623,6 +623,38 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 19,
+          "fecha": "2024-01-21",
+          "hora": "17:30",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "C.D Covadonga"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 2,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [
+            {"jugador": "Julen Castañeda"},
+            {"jugador": "Joel Priego"}],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [{"jugador": "Carlos Ramos"}],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
