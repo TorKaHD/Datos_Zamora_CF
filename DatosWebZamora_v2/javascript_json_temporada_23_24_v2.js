@@ -655,6 +655,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 20,
+          "fecha": "2024-01-27",
+          "hora": "17:00",
+        
+          "equipos": {
+            "local": "C.D Guijuelo",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Estadio Municipal Luis Ramos",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
