@@ -700,17 +700,19 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Ruta de la Plata",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
+            "local": 2,
+            "visitante": 1
           },
         
           "goles": {
-            "local": [],
-            "visitante": []
+            "local": [
+              {"jugador": "Julen Castañeda"},
+              {"jugador": "Alejandro Cañizo"}],
+            "visitante": [{"jugador": "Juan Manuel Parapar"}]
         },
         
           "asistencias": {
-            "local": [],
+            "local": [{"jugador": "Asier Etxaburu"}],
             "visitante": []
           },
         
