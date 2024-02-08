@@ -717,6 +717,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 22,
+          "fecha": "2024-02-11",
+          "hora": "16:15",
+        
+          "equipos": {
+            "local": "Coruxo F.C",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "O Vao",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
