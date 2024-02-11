@@ -747,6 +747,68 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 22,
+          "fecha": "2024-02-11",
+          "hora": "16:15",
+        
+          "equipos": {
+            "local": "Coruxo F.C",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "O Vao",
+        
+          "resultado": {
+            "local": 1,
+            "visitante": 2
+          },
+        
+          "goles": {
+            "local": [{"jugador": "Davo"}],
+            "visitante": [
+              {"jugador": "Alejandro Cañizo"},
+              {"jugador": "Sergi Baldrich"}]
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": [{"jugador": "Carlos Parra"}]
+          },
+        
+          "notas": []
+        },
+
+        {
+          "id": 23,
+          "fecha": "2024-02-18",
+          "hora": "17:30",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "Ourense C.F"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
