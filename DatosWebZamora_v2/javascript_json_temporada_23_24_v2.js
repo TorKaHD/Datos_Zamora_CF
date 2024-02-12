@@ -809,6 +809,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 24,
+          "fecha": "2024-02-25",
+          "hora": "17:00",
+        
+          "equipos": {
+            "local": "Pontevedra C.F",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Pasarón",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
@@ -876,4 +906,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
   mostrarPartidos();
 });
-
