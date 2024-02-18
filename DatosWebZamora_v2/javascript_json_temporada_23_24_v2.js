@@ -814,7 +814,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           "id": 25,
           "fecha": "2024-03-03",
-          "hora": "17:00",
+          "hora": "17:30",
         
           "equipos": {
             "local": "Zamora C.F",
