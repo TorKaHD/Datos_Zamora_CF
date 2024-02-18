@@ -732,36 +732,6 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "O Vao",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
-          },
-        
-          "goles": {
-            "local": [],
-            "visitante": []
-        },
-        
-          "asistencias": {
-            "local": [],
-            "visitante": []
-          },
-        
-          "notas": []
-        },
-
-        {
-          "id": 22,
-          "fecha": "2024-02-11",
-          "hora": "16:15",
-        
-          "equipos": {
-            "local": "Coruxo F.C",
-            "visitante": "Zamora C.F"
-          },
-        
-          "estadio": "O Vao",
-        
-          "resultado": {
             "local": 1,
             "visitante": 2
           },
@@ -822,6 +792,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "estadio": "Pasarón",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
+        },
+
+        {
+          "id": 25,
+          "fecha": "2024-03-03",
+          "hora": "17:00",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "R.C Deportivo Fabril"
+          },
+        
+          "estadio": "Ruta de la Plata",
         
           "resultado": {
             "local": 0,
