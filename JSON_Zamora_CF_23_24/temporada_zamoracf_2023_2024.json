@@ -778,6 +778,36 @@
           },
         
           "notas": []
+        },
+
+        {
+          "id": 25,
+          "fecha": "2024-03-03",
+          "hora": "17:00",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "R.C Deportivo Fabril"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
 
 ]
