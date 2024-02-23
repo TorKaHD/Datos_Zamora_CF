@@ -839,6 +839,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 26,
+          "fecha": "2024-03-10",
+          "hora": "16:15",
+        
+          "equipos": {
+            "local": "Real Oviedo Vetusta",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Ciudad Deportiva El Requexón",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
