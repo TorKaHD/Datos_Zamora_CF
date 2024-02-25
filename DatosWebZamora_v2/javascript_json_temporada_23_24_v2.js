@@ -784,7 +784,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           "id": 24,
           "fecha": "2024-02-25",
-          "hora": "17:00",
+          "hora": "17:30",
         
           "equipos": {
             "local": "Pontevedra C.F",
@@ -794,21 +794,25 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Pasarón",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
+            "local": 1,
+            "visitante": 2
           },
         
           "goles": {
-            "local": [],
-            "visitante": []
+            "local": [{"jugador": "Carlos López"}],
+            "visitante": [
+              {"jugador": "Alejandro Cañizo"},
+              {"jugador": "Adrián Mancebo"},
+              {"jugador": "Víctor López"}]
         },
         
           "asistencias": {
-            "local": [],
-            "visitante": []
+            "local": [{"jugador": "Alejandro Cañizo"}],
+            "visitante": [{"jugador": "Carlos Ramos"},
+            {"jugador": "Joel Priego"}]
           },
         
-          "notas": []
+          "notas": ["Partido retrasado media hora por la lluvia. Empezó a las 17:30 en vez de a las 17:00"]
         },
 
         {
