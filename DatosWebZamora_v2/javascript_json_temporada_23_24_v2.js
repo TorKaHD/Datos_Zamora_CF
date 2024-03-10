@@ -860,17 +860,17 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Ciudad Deportiva El Requexón",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
+            "local": 1,
+            "visitante": 1
           },
         
           "goles": {
-            "local": [],
-            "visitante": []
+            "local": [{"jugador": "Nacho Estrada"}],
+            "visitante": [{"jugador": "Joel Priego"}]
         },
         
           "asistencias": {
-            "local": [],
+            "local": [{"jugador": "Santi Miguélez"}],
             "visitante": []
           },
         
