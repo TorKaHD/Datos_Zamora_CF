@@ -905,6 +905,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 28,
+          "fecha": "2024-03-24",
+          "hora": "18:00",
+        
+          "equipos": {
+            "local": "Real Avilés Industrial",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Román Suárez Puerta",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
   
   ]
