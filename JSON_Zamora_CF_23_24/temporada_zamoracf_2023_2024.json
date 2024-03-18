@@ -864,6 +864,36 @@
           "estadio": "Ruta de la Plata",
         
           "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+        
+          "goles": {
+            "local": [{"jugador": "Adrián Pérez Bolo"}],
+            "visitante": [{"jugador": "Adrián Mancebo"}]
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": ["Adrián Pérez Bolo se marcó en propia puerta."]
+        },
+
+        {
+          "id": 28,
+          "fecha": "2024-03-24",
+          "hora": "18:00",
+        
+          "equipos": {
+            "local": "Real Avilés Industrial",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Román Suárez Puerta",
+        
+          "resultado": {
             "local": 0,
             "visitante": 0
           },
@@ -882,16 +912,16 @@
         },
 
         {
-          "id": 28,
-          "fecha": "2024-03-24",
+          "id": 29,
+          "fecha": "2024-03-31",
           "hora": "18:00",
         
           "equipos": {
-            "local": "Real Avilés Industrial",
-            "visitante": "Zamora C.F"
+            "local": "Zamora C.F",
+            "visitante": "R.S Gimnástica de Torrelavega"
           },
         
-          "estadio": "Román Suárez Puerta",
+          "estadio": "Ruta de la Plata",
         
           "resultado": {
             "local": 0,
