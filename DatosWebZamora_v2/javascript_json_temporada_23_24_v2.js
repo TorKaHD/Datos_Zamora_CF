@@ -921,6 +921,36 @@ document.addEventListener("DOMContentLoaded", function () {
         
           "resultado": {
             "local": 0,
+            "visitante": 1
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": [{"jugador": "Julen Castañeda"}]
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": [{"jugador": "Luismi Luengo"}]
+          },
+        
+          "notas": []
+        },
+
+        {
+          "id": 29,
+          "fecha": "2024-03-31",
+          "hora": "18:00",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "R.S Gimnástica de Torrelavega"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
             "visitante": 0
           },
         
@@ -938,16 +968,16 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         {
-          "id": 29,
-          "fecha": "2024-03-31",
-          "hora": "18:00",
+          "id": 30,
+          "fecha": "2024-04-07",
+          "hora": "16:30",
         
           "equipos": {
-            "local": "Zamora C.F",
-            "visitante": "R.S Gimnástica de Torrelavega"
+            "local": "Rayo Cantabria",
+            "visitante": "Zamora C.F"
           },
         
-          "estadio": "Ruta de la Plata",
+          "estadio": "Román Suárez Puerta",
         
           "resultado": {
             "local": 0,
