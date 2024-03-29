@@ -969,6 +969,36 @@
           },
         
           "notas": []
+        },
+
+        {
+          "id": 31,
+          "fecha": "2024-04-14",
+          "hora": "18:00",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "Real Valladolid C.F Promesas"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": []
         }
 
 ]
