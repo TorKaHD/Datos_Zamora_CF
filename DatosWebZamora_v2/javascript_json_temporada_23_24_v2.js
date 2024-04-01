@@ -950,17 +950,27 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Ruta de la Plata",
         
           "resultado": {
-            "local": 0,
+            "local": 4,
             "visitante": 0
           },
         
           "goles": {
-            "local": [],
+            "local": [
+              {"jugador": "Luis Rivas"},
+              {"jugador": "Alejandro Morales"},
+              {"jugador": "Pito Camacho"},
+              {"jugador": "Pito Camacho"}
+            ],
             "visitante": []
         },
         
           "asistencias": {
-            "local": [],
+            "local": [
+              {"jugador": "Adrián Mancebo"},
+              {"jugador": "Roger Marcé"},
+              {"jugador": "Roger Marcé"},
+              {"jugador": "Roger Marcé"}
+            ],
             "visitante": []
           },
         
