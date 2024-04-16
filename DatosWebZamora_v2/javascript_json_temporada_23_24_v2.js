@@ -987,7 +987,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "visitante": "Zamora C.F"
           },
         
-          "estadio": "Román Suárez Puerta",
+          "estadio": "Nando Yosu",
         
           "resultado": {
             "local": 0,
@@ -1020,6 +1020,36 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Ruta de la Plata",
         
           "resultado": {
+            "local": 1,
+            "visitante": 1
+          },
+        
+          "goles": {
+            "local": [{"jugador": "Joel Priego"}],
+            "visitante": [{"jugador": "Manu Pozo"}]
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": [{"jugador": "Fran Ortuño"}]
+          },
+        
+          "notas": []
+        }, 
+
+        {
+          "id": 33,
+          "fecha": "2024-04-28",
+          "hora": "12:00",
+        
+          "equipos": {
+            "local": "U.P Langreo",
+            "visitante": "Zamora C.F"
+          },
+        
+          "estadio": "Nuevo Ganzábal",
+        
+          "resultado": {
             "local": 0,
             "visitante": 0
           },
@@ -1035,6 +1065,36 @@ document.addEventListener("DOMContentLoaded", function () {
           },
         
           "notas": []
+        },
+
+        {
+          "id": 34,
+          "fecha": "2024-05-05",
+          "hora": "12:00",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "Arandina C.F"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+        },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": ["Final de la temporada regular."]
         }
   
   ]
