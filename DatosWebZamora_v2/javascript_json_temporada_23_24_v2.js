@@ -1082,13 +1082,13 @@ document.addEventListener("DOMContentLoaded", function () {
           "estadio": "Nuevo Ganzábal",
         
           "resultado": {
-            "local": 0,
-            "visitante": 0
+            "local": 1,
+            "visitante": 1
           },
         
           "goles": {
-            "local": [],
-            "visitante": []
+            "local": [{"jugador": "Nané"}],
+            "visitante": [{"jugador": "Adrián Mancebo"}]
         },
         
           "asistencias": {
@@ -1102,7 +1102,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           "id": 34,
           "fecha": "2024-05-05",
-          "hora": "12:00",
+          "hora": "18:00",
         
           "equipos": {
             "local": "Zamora C.F",
