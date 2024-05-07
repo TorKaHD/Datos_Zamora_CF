@@ -1,0 +1,74 @@
+{
+  
+    "playoff_ascenso_zamoracf_2023_2024":
+    
+    [
+  
+  {
+    "id": 1,
+    "fecha": "2024-05-12",
+    "hora": "18:05",
+  
+    "equipos": {
+      "local": "U.E Sant Andreu",
+      "visitante": "Zamora C.F"
+    },
+  
+    "estadio": "Narcís Sala",
+  
+    "resultado": {
+      "local": 0,
+      "visitante": 0
+    },
+  
+    "goles": {
+      "local": [],
+      "visitante": []
+    },
+  
+    "asistencias": {
+      "local": [],
+      "visitante": []
+    },
+  
+    "notas": [
+      "Ida Semifinal PlayOff de ascenso a Primera RFEF."
+    ]
+
+    },
+
+    {
+        "id": 2,
+        "fecha": "2024-05-19",
+        "hora": "19:30",
+      
+        "equipos": {
+          "local": "Zamora C.F",
+          "visitante": "U.E Sant Andreu"
+        },
+      
+        "estadio": "Ruta de la Plata",
+      
+        "resultado": {
+          "local": 0,
+          "visitante": 0
+        },
+      
+        "goles": {
+          "local": [],
+          "visitante": []
+        },
+      
+        "asistencias": {
+          "local": [],
+          "visitante": []
+        },
+      
+        "notas": [
+          "Vuelta Semifinal PlayOff de ascenso a Primera RFEF."
+        ]
+    
+        }
+
+    ]
+}
