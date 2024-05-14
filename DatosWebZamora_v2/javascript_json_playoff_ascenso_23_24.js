@@ -1,36 +1,41 @@
 document.addEventListener("DOMContentLoaded", function () {
     const partidos = [
-        {
-            "id": 1,
-            "fecha": "2024-05-12",
-            "hora": "18:05",
-          
-            "equipos": {
-              "local": "U.E Sant Andreu",
-              "visitante": "Zamora C.F"
-            },
-          
-            "estadio": "Narcís Sala",
-          
-            "resultado": {
-              "local": 0,
-              "visitante": 0
-            },
-          
-            "goles": {
-              "local": [],
-              "visitante": []
-            },
-          
-            "asistencias": {
-              "local": [],
-              "visitante": []
-            },
-          
-            "notas": [
-              "Ida Semifinal PlayOff de ascenso a Primera RFEF."
-            ]
-            },
+      {
+        "id": 1,
+        "fecha": "2024-05-12",
+        "hora": "18:05",
+      
+        "equipos": {
+          "local": "U.E Sant Andreu",
+          "visitante": "Zamora C.F"
+        },
+      
+        "estadio": "Narcís Sala",
+      
+        "resultado": {
+          "local": 2,
+          "visitante": 0
+        },
+      
+        "goles": {
+          "local": [ 
+          {"jugador": "Toni Paredes"},
+          {"jugador": "Toni Paredes"}
+        ]
+          ,
+          "visitante": []
+        },
+      
+        "asistencias": {
+          "local": [],
+          "visitante": []
+        },
+      
+        "notas": [
+          "Ida Semifinal PlayOff de ascenso a Primera RFEF."
+        ]
+    
+        },
 
             {
                 "id": 2,
