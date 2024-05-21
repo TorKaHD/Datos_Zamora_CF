@@ -54,12 +54,15 @@
         "estadio": "Ruta de la Plata",
       
         "resultado": {
-          "local": 0,
+          "local": 2,
           "visitante": 0
         },
       
         "goles": {
-          "local": [],
+          "local": [
+            {"jugador": "Sergio Castillo (Propia Puerta)"},
+            {"jugador": "Alejandro Cañizo"}
+          ],
           "visitante": []
         },
       
@@ -72,7 +75,73 @@
           "Vuelta Semifinal PlayOff de ascenso a Primera RFEF."
         ]
     
-        }
+        },
+
+        {
+          "id": 3,
+          "fecha": "2024-05-26",
+          "hora": "19:30",
+        
+          "equipos": {
+            "local": "Zamora C.F",
+            "visitante": "U.D San Sebastián de los Reyes"
+          },
+        
+          "estadio": "Ruta de la Plata",
+        
+          "resultado": {
+            "local": 0,
+            "visitante": 0
+          },
+        
+          "goles": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "asistencias": {
+            "local": [],
+            "visitante": []
+          },
+        
+          "notas": [
+            "Ida Final PlayOff de ascenso a Primera RFEF."
+          ]
+      
+          },
+
+          {
+            "id": 4,
+            "fecha": "2024-06-02",
+            "hora": "17:00",
+          
+            "equipos": {
+              "local": "U.D San Sebastian de los Reyes",
+              "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Matapiñonera",
+          
+            "resultado": {
+              "local": 0,
+              "visitante": 0
+            },
+          
+            "goles": {
+              "local": [],
+              "visitante": []
+            },
+          
+            "asistencias": {
+              "local": [],
+              "visitante": []
+            },
+          
+            "notas": [
+              "Vuelta Final PlayOff de ascenso a Primera RFEF."
+            ]
+        
+            }
 
     ]
 }
