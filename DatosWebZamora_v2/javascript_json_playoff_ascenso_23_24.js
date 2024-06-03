@@ -120,12 +120,12 @@ document.addEventListener("DOMContentLoaded", function () {
                   
                     "resultado": {
                       "local": 0,
-                      "visitante": 0
+                      "visitante": 1
                     },
                   
                     "goles": {
                       "local": [],
-                      "visitante": []
+                      "visitante": [{"jugador": "Luis Rivas"}]
                     },
                   
                     "asistencias": {
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     },
                   
                     "notas": [
-                      "Vuelta Final PlayOff de ascenso a Primera RFEF."
+                      "Vuelta Final PlayOff de ascenso a Primera RFEF. El Zamora Club de Fútbol asciende a Primera RFEF."
                     ]
                 
                     }
