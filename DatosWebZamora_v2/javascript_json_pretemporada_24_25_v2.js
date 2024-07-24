@@ -3,16 +3,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
         {
             "id": 1,
-            "fecha": "Prueba_fecha1",
-            "hora": "Prueba_hora1",
+            "fecha": "2024-07-27",
+            "hora": "18:00 - 19:15",
           
             "equipos": {
-              "local": "Prueba_equipo1",
-              "visitante": "Prueba_equipo2"
+              "local": "Íberos Club de Fútbol",
+              "local": "Ciudad Rodrigo Club de Fútbol",
+              "visitante": "Zamora Club de Fútbol"
             },
           
-            "estadio": "Prueba_estadio1",
+            "estadio": "Campo Municipal Francisco Mateos",
           
+            "resultado": {
+              "local": 0,
+              "visitante": 0
+            },
+
             "resultado": {
               "local": 0,
               "visitante": 0
@@ -39,8 +45,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 {"jugador": "Prueba_asistente2"}
             ]
             },
+
+            "goles": {
+              "local": [
+                {"jugador": "Prueba_goleador1"},
+                {"jugador": "Prueba_goleador2"}
+            ],
+              "visitante": [
+                  {"jugador": "Prueba_goleador1"},
+                  {"jugador": "Prueba_goleador2"}
+                 ]
+            },
           
-            "notas": ["Prueba_nota1"]
+            "asistencias": {
+              "local": [
+                {"jugador": "Prueba_asistente1"},
+                {"jugador": "Prueba_asistente2"}]
+                ,
+              "visitante": [{
+                "jugador": "Prueba_asistente1"},
+                {"jugador": "Prueba_asistente2"}
+            ]
+            },
+          
+            "notas": ["Amistoso Triangular"]
           },
           
           {
