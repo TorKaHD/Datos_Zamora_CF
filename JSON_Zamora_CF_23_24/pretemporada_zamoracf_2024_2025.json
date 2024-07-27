@@ -11,83 +11,32 @@
     
       "equipos": {
         "local": "Íberos Club de Fútbol",
-        "local_2": "Ciudad Rodrigo Club de Fútbol",
         "visitante": "Zamora Club de Fútbol"
       },
     
       "estadio": "Campo Municipal Francisco Mateos",
     
       "resultado": {
-        "local": 0,
-        "visitante": 0
-      },
-
-      "resultado_2": {
-        "local": 0,
+        "local": 1,
         "visitante": 0
       },
     
       "goles": {
         "local": [
 
-            {"jugador": "Prueba_goleador1"},
-            {"jugador": "Prueba_goleador2"}
+            {"jugador": "Luis Rivas"}
 
         ],
-        "visitante": [
-
-            {"jugador": "Prueba_goleador3"},
-            {"jugador": "Prueba_goleador4"}
-
-        ]
-      },
-
-      "goles_2": {
-        "local": [
-
-            {"jugador": "Prueba_goleador1"},
-            {"jugador": "Prueba_goleador2"}
-
-        ],
-        "visitante": [
-
-            {"jugador": "Prueba_goleador3"},
-            {"jugador": "Prueba_goleador4"}
-
-        ]
+        "visitante": []
       },
     
       "asistencias": {
-        "local": [
-
-            {"jugador": "Prueba_asistente1"},
-            {"jugador": "Prueba_asistente2"}
-
-        ],
-        "visitante": [
-
-            {"jugador": "Prueba_asistente3"},
-            {"jugador": "Prueba_asistente4"}
-
-        ]
-      },
-
-      "asistencias_2": {
-        "local": [
-
-            {"jugador": "Prueba_asistente1"},
-            {"jugador": "Prueba_asistente2"}
-
-        ],
-        "visitante": [
-
-            {"jugador": "Prueba_asistente3"},
-            {"jugador": "Prueba_asistente4"}
-
-        ]
+        "local": [],
+        "visitante": []
       },
     
-      "notas": ["Amistoso Triangular"]
+      "notas": ["Amistoso Triangular. Los segundos 45 minutos, contra el Ciudad Rodrigo, quedaron empate a cero."]
+      
     },
     
     {
