@@ -8,67 +8,31 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "equipos": {
               "local": "Íberos Club de Fútbol",
-              "local": "Ciudad Rodrigo Club de Fútbol",
               "visitante": "Zamora Club de Fútbol"
             },
           
             "estadio": "Campo Municipal Francisco Mateos",
           
             "resultado": {
-              "local": 0,
-              "visitante": 0
-            },
-
-            "resultado": {
-              "local": 0,
+              "local": 1,
               "visitante": 0
             },
           
             "goles": {
               "local": [
-                {"jugador": "Prueba_goleador1"},
-                {"jugador": "Prueba_goleador2"}
+                {"jugador": "Luis Rivas"},
             ],
-              "visitante": [
-                  {"jugador": "Prueba_goleador1"},
-                  {"jugador": "Prueba_goleador2"}
-                 ]
+              "visitante": []
             },
           
             "asistencias": {
-              "local": [
-                {"jugador": "Prueba_asistente1"},
-                {"jugador": "Prueba_asistente2"}]
-                ,
-              "visitante": [{
-                "jugador": "Prueba_asistente1"},
-                {"jugador": "Prueba_asistente2"}
-            ]
-            },
 
-            "goles": {
-              "local": [
-                {"jugador": "Prueba_goleador1"},
-                {"jugador": "Prueba_goleador2"}
-            ],
-              "visitante": [
-                  {"jugador": "Prueba_goleador1"},
-                  {"jugador": "Prueba_goleador2"}
-                 ]
+              "local": [],
+              "visitante": []
+          
             },
           
-            "asistencias": {
-              "local": [
-                {"jugador": "Prueba_asistente1"},
-                {"jugador": "Prueba_asistente2"}]
-                ,
-              "visitante": [{
-                "jugador": "Prueba_asistente1"},
-                {"jugador": "Prueba_asistente2"}
-            ]
-            },
-          
-            "notas": ["Amistoso Triangular"]
+            "notas": ["Amistoso Triangular. Los segundos 45 minutos, contra el Ciudad Rodrigo, quedaron empate a cero."]
           },
           
           {
