@@ -82,11 +82,11 @@
     {
       "id": 3,
       "fecha": "2024-08-03",
-      "hora": "20:00",
+      "hora": "19:30",
     
       "equipos": {
-          "local": "A.D Union Adarve",
-          "visitante": "Zamora C.F"
+          "local": "Zamora C.F",
+          "visitante": "A.D Union Adarve"
       },
     
       "estadio": "Centro Deportivo Municipal Vicente del Bosque",
