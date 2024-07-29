@@ -4,4 +4,4 @@
 >
 > Temporada 2023-2024 completada.
 >
-> Temporada 2024-2025 en curso
+> Temporada 2024-2025 en curso.
