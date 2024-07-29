@@ -37,38 +37,82 @@ document.addEventListener("DOMContentLoaded", function () {
           
           {
             "id": 2,
-            "fecha": "Prueba_fecha2",
-            "hora": "Prueba_hora2",
+            "fecha": "2024-07-31",
+            "hora": "20:00",
           
             "equipos": {
-                "local": "Prueba_equipo1",
-                "visitante": "Prueba_equipo2"
+                "local": "Unionistas de Salamanca C.F",
+                "visitante": "Zamora C.F"
             },
           
-            "estadio": "Prueba_estadio2",
+            "estadio": "Estadio Municipal Reina Sofia",
           
             "resultado": {
-                "local": 1,
-                "visitante": 1
+                "local": 0,
+                "visitante": 0
             },
           
             "goles": {
                 "local": [
-                    {"jugador": "Prueba_goleador1"}
+                    { "jugador": "Prueba_goleador5" }
                 ],
                 "visitante": [
           
-                    {"jugador": "Prueba_goleador1"}
+                    { "jugador": "Prueba_goleador6" }
       
                 ]
             },
           
             "asistencias": {
-                "local": [{"jugador": "Prueba_asistente1"}],
-                "visitante": [{"jugador": "Prueba_asistente1"}]
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
             },
           
-            "notas": ["Prueba_nota1"]
+            "notas": ["Prueba_nota2"]
+          },
+      
+          {
+            "id": 3,
+            "fecha": "2024-08-03",
+            "hora": "20:00",
+          
+            "equipos": {
+                "local": "A.D Union Adarve",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Centro Deportivo Municipal Vicente del Bosque",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+                    { "jugador": "Prueba_goleador5" }
+                ],
+                "visitante": [
+          
+                    { "jugador": "Prueba_goleador6" }
+      
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
+            },
+          
+            "notas": ["Prueba_nota2"]
           }
 
     ];
