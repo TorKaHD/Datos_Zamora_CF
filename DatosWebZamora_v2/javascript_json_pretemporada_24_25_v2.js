@@ -88,26 +88,52 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "goles": {
+                "local": [],
+                "visitante": []
+            },
+          
+            "asistencias": {
+                "local": [],
+                "visitante": []
+            },
+          
+            "notas": []
+          },
+      
+          {
+            "id": 4,
+            "fecha": "2023-08-07",
+            "hora": "19:00",
+          
+            "equipos": {
+                "local": "C.D Guijuelo",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Estadio Municipal Luis Ramos",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
                 "local": [
-                    { "jugador": "Prueba_goleador5" }
+                  {"jugador": "Prueba_goleador5"}
                 ],
                 "visitante": [
           
-                    { "jugador": "Prueba_goleador6" }
+                  {"jugador": "Prueba_goleador5"}
       
                 ]
             },
           
             "asistencias": {
-                "local": [
-                  { "jugador": "Prueba_asistente5"}
-                ],
-                "visitante": [
-                  { "jugador": "Prueba_asistente6" }
-                ]
+                "local": [{ "jugador": "Prueba_asistente5"} ],
+                "visitante": [{ "jugador": "Prueba_asistente5"} ]
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": ["Memorial Agustin Villar"]
           }
 
     ];
