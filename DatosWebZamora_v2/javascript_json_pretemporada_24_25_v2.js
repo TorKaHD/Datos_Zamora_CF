@@ -113,24 +113,20 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Estadio Municipal Luis Ramos",
           
             "resultado": {
-                "local": 0,
+                "local": 1,
                 "visitante": 0
             },
           
             "goles": {
                 "local": [
-                  {"jugador": "Prueba_goleador5"}
+                  {"jugador": "Pepe Carmona"}
                 ],
-                "visitante": [
-          
-                  {"jugador": "Prueba_goleador5"}
-      
-                ]
+                "visitante": []
             },
           
             "asistencias": {
-                "local": [{ "jugador": "Prueba_asistente5"} ],
-                "visitante": [{ "jugador": "Prueba_asistente5"} ]
+                "local": [],
+                "visitante": []
             },
           
             "notas": ["Memorial Agustin Villar"]
