@@ -3,15 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         {
             "id": 1,
-            "fecha": "Prueba_fecha1",
-            "hora": "Prueba_hora1",
+            "fecha": "2024-08.24",
+            "hora": "21:00",
           
             "equipos": {
-              "local": "Prueba_equipo1",
-              "visitante": "Prueba_equipo2"
+              "local": "Club Atlético Osasuna B",
+              "visitante": "Zamora C.F"
             },
           
-            "estadio": "Prueba_estadio1",
+            "estadio": "Ciudad Deportiva de Tajonar",
           
             "resultado": {
               "local": 0,
@@ -20,24 +20,32 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "goles": {
               "local": [
-                {"jugador": "Prueba_goleador1"},
-                {"jugador": "Prueba_goleador2"}
-            ],
-              "visitante": [
+      
                   {"jugador": "Prueba_goleador1"},
                   {"jugador": "Prueba_goleador2"}
-                 ]
+      
+              ],
+              "visitante": [
+      
+                  {"jugador": "Prueba_goleador3"},
+                  {"jugador": "Prueba_goleador4"}
+      
+              ]
             },
           
             "asistencias": {
               "local": [
-                {"jugador": "Prueba_asistente1"},
-                {"jugador": "Prueba_asistente2"}]
-                ,
-              "visitante": [{
-                "jugador": "Prueba_asistente1"},
-                {"jugador": "Prueba_asistente2"}
-            ]
+      
+                  {"jugador": "Prueba_asistente1"},
+                  {"jugador": "Prueba_asistente2"}
+      
+              ],
+              "visitante": [
+      
+                  {"jugador": "Prueba_asistente3"},
+                  {"jugador": "Prueba_asistente4"}
+      
+              ]
             },
           
             "notas": ["Prueba_nota1"]
@@ -45,40 +53,44 @@ document.addEventListener("DOMContentLoaded", function () {
           
           {
             "id": 2,
-            "fecha": "Prueba_fecha2",
-            "hora": "Prueba_hora2",
+            "fecha": "2024-09-01",
+            "hora": "20:00",
           
             "equipos": {
-                "local": "Prueba_equipo1",
-                "visitante": "Prueba_equipo2"
+                "local": "Zamora C.F",
+                "visitante": "S.D Tarazona"
             },
           
-            "estadio": "Prueba_estadio2",
+            "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 1,
-                "visitante": 1
+                "local": 0,
+                "visitante": 0
             },
           
             "goles": {
                 "local": [
-                    {"jugador": "Prueba_goleador1"}
+                    { "jugador": "Prueba_goleador5" }
                 ],
                 "visitante": [
           
-                    {"jugador": "Prueba_goleador1"}
+                    { "jugador": "Prueba_goleador6" }
       
                 ]
             },
           
             "asistencias": {
-                "local": [{"jugador": "Prueba_asistente1"}],
-                "visitante": [{"jugador": "Prueba_asistente1"}]
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
             },
           
-            "notas": ["Prueba_nota1"]
+            "notas": ["Prueba_nota2"]
           }
-
+      
     ];
 
     const jsonContainer = document.getElementById("jsonContainer");
