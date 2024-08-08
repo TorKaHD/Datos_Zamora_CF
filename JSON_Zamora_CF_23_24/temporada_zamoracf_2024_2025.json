@@ -6,19 +6,19 @@
 
     {
       "id": 1,
-      "fecha": "Prueba_fecha1",
-      "hora": "Prueba_hora1",
+      "fecha": "2024-08.24",
+      "hora": "21:00",
     
       "equipos": {
-        "local": "Prueba_equipo1",
-        "visitante": "Prueba_equipo2"
+        "local": "Club Atlético Osasuna B",
+        "visitante": "Zamora C.F"
       },
     
-      "estadio": "Prueba_estadio1",
+      "estadio": "Ciudad Deportiva de Tajonar",
     
       "resultado": {
-        "local": 2,
-        "visitante": 2
+        "local": 0,
+        "visitante": 0
       },
     
       "goles": {
@@ -56,19 +56,19 @@
     
     {
       "id": 2,
-      "fecha": "Prueba_fecha2",
-      "hora": "Prueba_hora2",
+      "fecha": "2024-09-01",
+      "hora": "20:00",
     
       "equipos": {
-          "local": "Prueba_equipo3",
-          "visitante": "Prueba_equipo4"
+          "local": "Zamora C.F",
+          "visitante": "S.D Tarazona"
       },
     
       "estadio": "Ruta de la Plata",
     
       "resultado": {
-          "local": 1,
-          "visitante": 1
+          "local": 0,
+          "visitante": 0
       },
     
       "goles": {
