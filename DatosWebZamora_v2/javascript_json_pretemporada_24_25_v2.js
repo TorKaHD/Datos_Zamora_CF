@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
           {
             "id": 4,
-            "fecha": "2023-08-07",
+            "fecha": "2024-08-07",
             "hora": "19:00",
           
             "equipos": {
@@ -130,6 +130,36 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": ["Memorial Agustin Villar"]
+          },
+
+          {
+            "id": 5,
+            "fecha": "2024-08-11",
+            "hora": "11:00",
+          
+            "equipos": {
+                "local": "Atlético de Madrid B",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Miniestadio Cerro del Espino",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [],
+                "visitante": []
+            },
+          
+            "asistencias": {
+                "local": [],
+                "visitante": []
+            },
+          
+            "notas": []
           }
 
     ];
