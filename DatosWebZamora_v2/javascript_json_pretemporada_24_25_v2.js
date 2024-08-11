@@ -145,12 +145,18 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Miniestadio Cerro del Espino",
           
             "resultado": {
-                "local": 0,
+                "local": 3,
                 "visitante": 0
             },
           
             "goles": {
-                "local": [],
+                "local": [
+      
+                  {"jugador": "Adrián Niño"},
+                  {"jugador": "Rayane Belaid"},
+                  {"jugador": "Omar Janneh"}
+      
+                ],
                 "visitante": []
             },
           
