@@ -168,6 +168,66 @@
       },
     
       "notas": []
+    },
+
+    {
+      "id": 6,
+      "fecha": "2024-08-14",
+      "hora": "20:30",
+    
+      "equipos": {
+          "local": "Zamora C.F",
+          "visitante": "Salamanca UDS"
+      },
+    
+      "estadio": "Ruta de la Plata",
+    
+      "resultado": {
+          "local": 0,
+          "visitante": 0
+      },
+    
+      "goles": {
+          "local": [],
+          "visitante": []
+      },
+    
+      "asistencias": {
+          "local": [],
+          "visitante": []
+      },
+    
+      "notas": []
+    },
+
+    {
+      "id": 7,
+      "fecha": "2024-08-16",
+      "hora": "20:00",
+    
+      "equipos": {
+          "local": "Zamora C.F",
+          "visitante": "Mérida A.D"
+      },
+    
+      "estadio": "Ruta de la Plata",
+    
+      "resultado": {
+          "local": 0,
+          "visitante": 0
+      },
+    
+      "goles": {
+          "local": [],
+          "visitante": []
+      },
+    
+      "asistencias": {
+          "local": [],
+          "visitante": []
+      },
+    
+      "notas": []
     }
 
     ]
