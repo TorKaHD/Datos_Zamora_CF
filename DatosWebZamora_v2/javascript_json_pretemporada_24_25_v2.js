@@ -181,13 +181,22 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 3,
+                "visitante": 1
             },
           
             "goles": {
-                "local": [],
-                "visitante": []
+                "local": [
+      
+                  {"jugador": "Adrián Bolo"},
+                  {"jugador": "Dani Hernández"},
+                  {"jugador": "Rafa Tresaco"}],
+      
+                "visitante": [
+      
+                  {"jugador": "Pablo Clavería (Propia Puerta)"}
+      
+                ]
             },
           
             "asistencias": {
