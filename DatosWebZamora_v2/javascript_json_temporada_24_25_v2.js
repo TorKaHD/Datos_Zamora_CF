@@ -89,6 +89,46 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": ["Prueba_nota2"]
+          },
+    
+          {
+            "id": 3,
+            "fecha": "2024-09-07",
+            "hora": "15:30",
+          
+            "equipos": {
+                "local": "Bilbao Athletic",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Instalaciones de Lezama",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+                    { "jugador": "Prueba_goleador5" }
+                ],
+                "visitante": [
+          
+                    { "jugador": "Prueba_goleador6" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
+            },
+          
+            "notas": ["Prueba_nota2"]
           }
       
     ];
