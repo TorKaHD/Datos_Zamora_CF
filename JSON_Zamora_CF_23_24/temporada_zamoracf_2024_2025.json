@@ -4,55 +4,43 @@
     
     [
 
-    {
-      "id": 1,
-      "fecha": "2024-08.24",
-      "hora": "21:00",
-    
-      "equipos": {
-        "local": "Club Atlético Osasuna B",
-        "visitante": "Zamora C.F"
+      {
+        "id": 1,
+        "fecha": "2024-08.24",
+        "hora": "21:00",
+      
+        "equipos": {
+          "local": "Club Atlético Osasuna B",
+          "visitante": "Zamora C.F"
+        },
+      
+        "estadio": "Ciudad Deportiva de Tajonar",
+      
+        "resultado": {
+          "local": 1,
+          "visitante": 0
+        },
+      
+        "goles": {
+          "local": [
+  
+              {"jugador": "Diego Espejo"}
+  
+          ],
+          "visitante": []
+        },
+      
+        "asistencias": {
+          "local": [
+  
+              {"jugador": "Toni Herrero"}
+  
+          ],
+          "visitante": []
+        },
+      
+        "notas": []
       },
-    
-      "estadio": "Ciudad Deportiva de Tajonar",
-    
-      "resultado": {
-        "local": 0,
-        "visitante": 0
-      },
-    
-      "goles": {
-        "local": [
-
-            {"jugador": "Prueba_goleador1"},
-            {"jugador": "Prueba_goleador2"}
-
-        ],
-        "visitante": [
-
-            {"jugador": "Prueba_goleador3"},
-            {"jugador": "Prueba_goleador4"}
-
-        ]
-      },
-    
-      "asistencias": {
-        "local": [
-
-            {"jugador": "Prueba_asistente1"},
-            {"jugador": "Prueba_asistente2"}
-
-        ],
-        "visitante": [
-
-            {"jugador": "Prueba_asistente3"},
-            {"jugador": "Prueba_asistente4"}
-
-        ]
-      },
-    
-      "notas": ["Prueba_nota1"]
-    },
     
     {
       "id": 2,
