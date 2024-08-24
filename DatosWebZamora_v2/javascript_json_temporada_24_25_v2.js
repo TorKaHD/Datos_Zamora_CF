@@ -14,41 +14,29 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ciudad Deportiva de Tajonar",
           
             "resultado": {
-              "local": 0,
+              "local": 1,
               "visitante": 0
             },
           
             "goles": {
               "local": [
       
-                  {"jugador": "Prueba_goleador1"},
-                  {"jugador": "Prueba_goleador2"}
+                  {"jugador": "Diego Espejo"}
       
               ],
-              "visitante": [
-      
-                  {"jugador": "Prueba_goleador3"},
-                  {"jugador": "Prueba_goleador4"}
-      
-              ]
+              "visitante": []
             },
           
             "asistencias": {
               "local": [
       
-                  {"jugador": "Prueba_asistente1"},
-                  {"jugador": "Prueba_asistente2"}
+                  {"jugador": "Toni Herrero"}
       
               ],
-              "visitante": [
-      
-                  {"jugador": "Prueba_asistente3"},
-                  {"jugador": "Prueba_asistente4"}
-      
-              ]
+              "visitante": []
             },
           
-            "notas": ["Prueba_nota1"]
+            "notas": []
           },
           
           {
