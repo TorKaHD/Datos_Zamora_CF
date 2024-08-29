@@ -120,6 +120,46 @@
     },
   
     "notas": ["Prueba_nota2"]
+  },
+    
+  {
+    "id": 4,
+    "fecha": "2024-09-13",
+    "hora": "20:30",
+  
+    "equipos": {
+        "local": "Zamora C.F",
+        "visitante": "Cultural Leonesa"
+    },
+  
+    "estadio": "Ruta de la Plata",
+  
+    "resultado": {
+        "local": 0,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+            { "jugador": "Prueba_goleador5" }
+        ],
+        "visitante": [
+  
+            { "jugador": "Prueba_goleador6" }
+
+        ]
+    },
+  
+    "asistencias": {
+        "local": [
+          { "jugador": "Prueba_asistente5"}
+        ],
+        "visitante": [
+          { "jugador": "Prueba_asistente6" }
+        ]
+    },
+  
+    "notas": ["Prueba_nota2"]
   }
     
     ]
