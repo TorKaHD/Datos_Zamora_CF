@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "notas": []
           },
-          
+    
           {
             "id": 2,
             "fecha": "2024-09-01",
@@ -53,30 +53,24 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "resultado": {
                 "local": 0,
-                "visitante": 0
+                "visitante": 1
             },
           
             "goles": {
-                "local": [
-                    { "jugador": "Prueba_goleador5" }
-                ],
+                "local": [],
                 "visitante": [
           
-                    { "jugador": "Prueba_goleador6" }
+                    { "jugador": "Lluis Llácer" }
       
                 ]
             },
           
             "asistencias": {
-                "local": [
-                  { "jugador": "Prueba_asistente5"}
-                ],
-                "visitante": [
-                  { "jugador": "Prueba_asistente6" }
-                ]
+                "local": [],
+                "visitante": []
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": []
           },
     
           {
