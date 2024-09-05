@@ -115,12 +115,92 @@ document.addEventListener("DOMContentLoaded", function () {
     
           {
             "id": 4,
-            "fecha": "2024-09-13",
-            "hora": "20:30",
+            "fecha": "2024-09-15",
+            "hora": "17:30",
           
             "equipos": {
                 "local": "Zamora C.F",
                 "visitante": "Cultural Leonesa"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+                    { "jugador": "Prueba_goleador5" }
+                ],
+                "visitante": [
+          
+                    { "jugador": "Prueba_goleador6" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
+            },
+          
+            "notas": ["Prueba_nota2"]
+          },
+    
+          {
+            "id": 5,
+            "fecha": "2024-09-21",
+            "hora": "19:30",
+          
+            "equipos": {
+                "local": "F.C Barcelona Atlétic",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Mini Estadi",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+                    { "jugador": "Prueba_goleador5" }
+                ],
+                "visitante": [
+          
+                    { "jugador": "Prueba_goleador6" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
+            },
+          
+            "notas": ["Prueba_nota2"]
+          },
+            
+          {
+            "id": 6,
+            "fecha": "2024-09-29",
+            "hora": "12:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "S.D Amorebieta"
             },
           
             "estadio": "Ruta de la Plata",
