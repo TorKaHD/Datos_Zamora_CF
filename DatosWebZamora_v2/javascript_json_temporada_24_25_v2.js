@@ -86,31 +86,33 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Instalaciones de Lezama",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 3,
+                "visitante": 3
             },
           
             "goles": {
                 "local": [
-                    { "jugador": "Prueba_goleador5" }
+        
+                    { "jugador": "Endika Buján" },
+                    { "jugador": "Xabier Irurita" },
+                    { "jugador": "Ibai Sanz" }
+        
                 ],
                 "visitante": [
           
-                    { "jugador": "Prueba_goleador6" }
+                    { "jugador": "Roni" },
+                    { "jugador": "Kike Márquez"},
+                    { "jugador": "Pablo Clavería" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-                  { "jugador": "Prueba_asistente5"}
-                ],
-                "visitante": [
-                  { "jugador": "Prueba_asistente6" }
-                ]
+                "local": [],
+                "visitante": []
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": []
           },
     
           {
