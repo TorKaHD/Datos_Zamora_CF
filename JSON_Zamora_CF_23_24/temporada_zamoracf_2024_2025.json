@@ -132,7 +132,7 @@
   
     "resultado": {
         "local": 0,
-        "visitante": 0
+        "visitante": 1
     },
   
     "goles": {
@@ -141,7 +141,7 @@
         ],
         "visitante": [
   
-            { "jugador": "Prueba_goleador6" }
+            { "jugador": "Luis Chacón" }
 
         ]
     },
@@ -151,11 +151,11 @@
           { "jugador": "Prueba_asistente5"}
         ],
         "visitante": [
-          { "jugador": "Prueba_asistente6" }
+          { "jugador": "Antón Escobar" }
         ]
     },
   
-    "notas": ["Prueba_nota2"]
+    "notas": []
   },
     
   {
