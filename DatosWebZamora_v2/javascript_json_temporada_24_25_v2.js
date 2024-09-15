@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "resultado": {
                 "local": 0,
-                "visitante": 0
+                "visitante": 1
             },
           
             "goles": {
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ],
                 "visitante": [
           
-                    { "jugador": "Prueba_goleador6" }
+                    { "jugador": "Luis Chacón" }
         
                 ]
             },
@@ -148,11 +148,11 @@ document.addEventListener("DOMContentLoaded", function () {
                   { "jugador": "Prueba_asistente5"}
                 ],
                 "visitante": [
-                  { "jugador": "Prueba_asistente6" }
+                  { "jugador": "Antón Escobar" }
                 ]
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": []
           },
     
           {
