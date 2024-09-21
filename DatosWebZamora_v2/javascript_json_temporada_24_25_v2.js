@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "visitante": "Zamora C.F"
             },
           
-            "estadio": "Mini Estadi",
+            "estadio": "Estadio Johan Cruyff",
           
             "resultado": {
                 "local": 0,
