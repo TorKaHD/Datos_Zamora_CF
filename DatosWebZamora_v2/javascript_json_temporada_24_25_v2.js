@@ -168,31 +168,25 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Estadio Johan Cruyff",
           
             "resultado": {
-                "local": 0,
+                "local": 1,
                 "visitante": 0
             },
           
             "goles": {
                 "local": [
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Óscar Ureña" }
                 ],
-                "visitante": [
-          
-                    { "jugador": "Prueba_goleador6" }
-        
-                ]
+                "visitante": []
             },
           
             "asistencias": {
                 "local": [
-                  { "jugador": "Prueba_asistente5"}
+                  { "jugador": "Rubén López"}
                 ],
-                "visitante": [
-                  { "jugador": "Prueba_asistente6" }
-                ]
+                "visitante": []
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": []
           },
             
           {
