@@ -307,6 +307,46 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": ["Prueba_nota2"]
+          },
+            
+          {
+            "id": 9,
+            "fecha": "2024-10-18",
+            "hora": "20:30",
+          
+            "equipos": {
+                "local": "Barakaldo C.F",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Lasesarre",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+                    { "jugador": "Prueba_goleador5" }
+                ],
+                "visitante": [
+          
+                    { "jugador": "Prueba_goleador6" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+                  { "jugador": "Prueba_asistente5"}
+                ],
+                "visitante": [
+                  { "jugador": "Prueba_asistente6" }
+                ]
+            },
+          
+            "notas": ["Prueba_nota2"]
           }
       
     ];
