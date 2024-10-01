@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { "jugador": "Pito Camacho" },
                     { "jugador": "Edu Campabadal" },
                     { "jugador": "Kike Márquez" },
-                    { "jugador": "Álvaro Yuste (P.P)" },
+                    { "jugador": "Pito Camacho" },
                     { "jugador": "Pito Camacho" }
                 ],
                 "visitante": []
