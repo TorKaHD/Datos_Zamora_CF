@@ -352,7 +352,7 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             "id": 9,
             "fecha": "2024-10-18",
-            "hora": "20:30",
+            "hora": "19:30",
           
             "equipos": {
                 "local": "Zamora C.F",
