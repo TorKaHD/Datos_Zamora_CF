@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", function () {
           },
             
           {
-            "id": 9,
+            "id": 10,
             "fecha": "2024-10-18",
             "hora": "19:30",
           
@@ -384,6 +384,45 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": ["Prueba_nota2"]
+          },
+            
+          {
+            "id": 11,
+            "fecha": "2024-10-12",
+            "hora": "17:30",
+          
+            "equipos": {
+                "local": "S.D Ponferradina",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 2,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+
+                    { "jugador": "Kike Márquez" },
+                    { "jugador": "Rufino Lucero" }
+                ],
+                "visitante": []
+            },
+          
+            "asistencias": {
+                "local": [
+
+                    { "jugador": "Rufino Lucero" },
+                    { "jugador": "Edu Campabadal" }
+
+                ],
+                "visitante": []
+            },
+          
+            "notas": []
           }
       
     ];
