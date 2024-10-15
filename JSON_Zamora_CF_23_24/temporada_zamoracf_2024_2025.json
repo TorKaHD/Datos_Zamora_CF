@@ -391,7 +391,7 @@
             
   {
     "id": 11,
-    "fecha": "2024-10-12",
+    "fecha": "2024-11-03",
     "hora": "17:30",
   
     "equipos": {
@@ -399,30 +399,83 @@
         "visitante": "Zamora C.F"
     },
   
-    "estadio": "Ruta de la Plata",
+    "estadio": "Toralín",
   
     "resultado": {
-        "local": 2,
+        "local": 0,
         "visitante": 0
     },
   
     "goles": {
         "local": [
 
-            { "jugador": "Kike Márquez" },
-            { "jugador": "Rufino Lucero" }
+            { "jugador": "Prueba_goleador5" }
+
         ],
-        "visitante": []
+        "visitante": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ]
     },
   
     "asistencias": {
         "local": [
 
-            { "jugador": "Rufino Lucero" },
-            { "jugador": "Edu Campabadal" }
+            { "jugador": "Prueba_asistente5"}
 
         ],
-        "visitante": []
+        "visitante": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ]
+    },
+  
+    "notas": []
+  },
+    
+  {
+    "id": 12,
+    "fecha": "2024-11-10",
+    "hora": "17:30",
+  
+    "equipos": {
+        "local": "Zamora C.F",
+        "visitante": "Real Sociedad B"
+    },
+  
+    "estadio": "Ruta de la Plata",
+  
+    "resultado": {
+        "local": 0,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ]
+    },
+  
+    "asistencias": {
+        "local": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ]
     },
   
     "notas": []
