@@ -320,30 +320,30 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "resultado": {
                 "local": 0,
-                "visitante": 0
+                "visitante": 3
             },
           
             "goles": {
-                "local": [
-                    { "jugador": "Prueba_goleador5" }
-                ],
+                "local": [],
                 "visitante": [
           
-                    { "jugador": "Prueba_goleador6" }
+                    { "jugador": "Kike Márquez (Penalti)" },
+                    { "jugador": "Sergio Nieto" },
+                    { "jugador": "Luis Rivas" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-                  { "jugador": "Prueba_asistente5"}
-                ],
+                "local": [],
                 "visitante": [
-                  { "jugador": "Prueba_asistente6" }
+
+                  { "jugador": "Julen Castañeda" }
+
                 ]
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": []
           },
             
           {
