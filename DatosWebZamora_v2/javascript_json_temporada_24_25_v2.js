@@ -359,31 +359,32 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 2
             },
           
             "goles": {
                 "local": [
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Pito Camacho" }
                 ],
                 "visitante": [
           
-                    { "jugador": "Prueba_goleador6" }
+                    { "jugador": "Leandro Martínez" },
+                    { "jugador": "Ion Etxaniz" }
         
                 ]
             },
           
             "asistencias": {
                 "local": [
-                  { "jugador": "Prueba_asistente5"}
+                  { "jugador": "Rufino Lucero"}
                 ],
                 "visitante": [
-                  { "jugador": "Prueba_asistente6" }
+                  { "jugador": "Marcos Bustillo" }
                 ]
             },
           
-            "notas": ["Prueba_nota2"]
+            "notas": []
           },
             
           {
@@ -472,6 +473,52 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     { "jugador": "Prueba_asistente5"}
 
+                ]
+            },
+          
+            "notas": []
+          },
+    
+          {
+            "id": 13,
+            "fecha": "2024-11-16",
+            "hora": "19:30",
+          
+            "equipos": {
+                "local": "Unionistas de Salamanca",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Reina Sofía",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
                 ]
             },
           
