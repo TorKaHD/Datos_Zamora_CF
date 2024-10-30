@@ -526,6 +526,52 @@
     },
   
     "notas": []
+  },
+
+  {
+    "id": 14,
+    "fecha": "2024-11-22",
+    "hora": "20:30",
+  
+    "equipos": {
+        "local": "Zamora C.F",
+        "visitante": "C.D Lugo"
+    },
+  
+    "estadio": "Ruta de la Plata",
+  
+    "resultado": {
+        "local": 0,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ]
+    },
+  
+    "asistencias": {
+        "local": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ]
+    },
+  
+    "notas": []
   }
     
     ]
