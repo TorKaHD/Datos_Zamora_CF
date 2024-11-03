@@ -400,19 +400,21 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Toralín",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 2,
+                "visitante": 2
             },
           
             "goles": {
                 "local": [
 
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Álvaro Bustos" },
+                    { "jugador": "Kevin Sibille" }
 
                 ],
                 "visitante": [
 
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Pablo Clavería" },
+                    { "jugador": "Roni" }
 
                 ]
             },
@@ -420,14 +422,11 @@ document.addEventListener("DOMContentLoaded", function () {
             "asistencias": {
                 "local": [
 
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "José Luis Cortés"},
+                    { "jugador": "Yeray Cabanzón"}
 
                 ],
-                "visitante": [
-
-                    { "jugador": "Prueba_asistente5"}
-
-                ]
+                "visitante": []
             },
           
             "notas": []
