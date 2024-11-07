@@ -571,6 +571,52 @@
     },
   
     "notas": []
+  },
+
+  {
+    "id": 15,
+    "fecha": "2024-12-1",
+    "hora": "17:30",
+  
+    "equipos": {
+        "local": "Celta Fortuna",
+        "visitante": "Zamora C.F"
+    },
+  
+    "estadio": "Cidade Deportiva da Madroa",
+  
+    "resultado": {
+        "local": 0,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ]
+    },
+  
+    "asistencias": {
+        "local": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ]
+    },
+  
+    "notas": []
   }
     
     ]
