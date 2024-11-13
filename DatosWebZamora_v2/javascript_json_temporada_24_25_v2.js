@@ -560,7 +560,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           {
             "id": 15,
-            "fecha": "2024-12-1",
+            "fecha": "2024-12-01",
             "hora": "17:30",
           
             "equipos": {
@@ -569,6 +569,52 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "estadio": "Cidade Deportiva da Madroa",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
+          },
+
+          {
+            "id": 16,
+            "fecha": "2024-12-07",
+            "hora": "17:30",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "Ourense C.F"
+            },
+          
+            "estadio": "Ruta de la Plata",
           
             "resultado": {
                 "local": 0,
