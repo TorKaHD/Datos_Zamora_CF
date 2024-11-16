@@ -479,34 +479,26 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Reina Sofía",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Jorge Rastrojo" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Kikie Márquez (Penalti)" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ]
+                "local": [],
+                "visitante": []
             },
           
             "notas": []
