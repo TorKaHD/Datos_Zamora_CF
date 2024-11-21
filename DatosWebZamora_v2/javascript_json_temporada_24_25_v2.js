@@ -640,6 +640,52 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": []
+          },
+
+          {
+            "id": 17,
+            "fecha": "2024-12-14",
+            "hora": "17:30",
+          
+            "equipos": {
+                "local": "Gimnástic de Tarragona",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Nou Estadi Costa Daurada",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
       
     ];
