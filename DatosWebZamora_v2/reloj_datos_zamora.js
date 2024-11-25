@@ -9,8 +9,19 @@ function actualizarReloj() {
 
     // Configuramos las opciones para obtener el día de la semana y la fecha (día, mes, año)
     const opcionesFecha = { weekday: 'long', day: 'numeric', month: 'numeric', year: 'numeric' };
+    
     // Obtenemos la fecha con el día de la semana, en el formato local de España ('es-ES')
-    const fecha = ahora.toLocaleDateString('es-ES', opcionesFecha);
+    const fechaOriginal = ahora.toLocaleDateString('es-ES', opcionesFecha);
+    
+    // Función para capitalizar la primera letra
+    const capitalizarPrimeraLetra = (texto) => {
+        return texto.charAt(0).toUpperCase() + texto.slice(1);
+    };
+
+    // Modificamos la fecha para capitalizar el día de la semana
+    const fecha = fechaOriginal.split(',').map((parte, index) => {
+        return index === 0 ? capitalizarPrimeraLetra(parte.trim()) : parte.trim();
+    }).join(', ');
 
     // Mostramos la hora actualizada dentro del elemento con id "reloj"
     document.getElementById('reloj').textContent = `${hora}:${minutos}:${segundos}`;
