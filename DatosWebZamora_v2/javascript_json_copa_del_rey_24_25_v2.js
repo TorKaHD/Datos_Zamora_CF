@@ -42,6 +42,52 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   
     "notas": ["Primera Ronda de la Copa del Rey"]
+  },
+
+  {
+    "id": 2,
+    "fecha": "2024-12-4",
+    "hora": "21:00",
+  
+    "equipos": {
+        "local": "Zamora C.F",
+        "visitante": "C.D Tenerife"
+    },
+  
+    "estadio": "Ruta de la Plata",
+  
+    "resultado": {
+        "local": 0,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ]
+    },
+  
+    "asistencias": {
+        "local": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ]
+    },
+  
+    "notas": ["Segunda ronda de la Copa del Rey"]
   }
 
 ];
