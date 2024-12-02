@@ -557,34 +557,27 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Balaídos",
           
             "resultado": {
-                "local": 0,
+                "local": 2,
                 "visitante": 0
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Óscar Marcos" },
+                    { "jugador": "Emi Rodriguez" }
         
                 ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_goleador5" }
-        
-                ]
+                "visitante": []
             },
           
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Tincho"}
         
                 ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ]
+                "visitante": []
             },
           
             "notas": []
