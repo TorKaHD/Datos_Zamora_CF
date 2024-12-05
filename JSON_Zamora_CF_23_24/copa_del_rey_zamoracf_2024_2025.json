@@ -65,32 +65,16 @@
         },
       
         "goles": {
-            "local": [
-    
-                { "jugador": "Prueba_goleador5" }
-    
-            ],
-            "visitante": [
-    
-                { "jugador": "Prueba_goleador5" }
-    
-            ]
+            "local": [],
+            "visitante": []
         },
       
         "asistencias": {
-            "local": [
-    
-                { "jugador": "Prueba_asistente5"}
-    
-            ],
-            "visitante": [
-    
-                { "jugador": "Prueba_asistente5"}
-    
-            ]
+            "local": [],
+            "visitante": []
         },
       
-        "notas": ["Segunda ronda de la Copa del Rey"]
+        "notas": ["Segunda ronda de la Copa del Rey. El Zamora Club de Fútbol quedó eliminado en los penalties perdiendo 1 a 3."]
       }
 ]
 }
