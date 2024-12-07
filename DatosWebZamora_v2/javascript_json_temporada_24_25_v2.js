@@ -596,19 +596,19 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "José Carlos" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Iván del Olmo" }
         
                 ]
             },
@@ -616,12 +616,12 @@ document.addEventListener("DOMContentLoaded", function () {
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Sergio Nieto"}
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Fernando Andrada"}
         
                 ]
             },
