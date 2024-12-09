@@ -124,6 +124,7 @@ hr {
 .imagen_centro {
 
     text-align: center;
+    object-fit: contain;
 
 }
 
@@ -151,6 +152,7 @@ body, html {
     margin: 0;
 }
 .parallaxBg {
+
     /* The image used */
     background-image: url("paralaje_zamora.png");
 
