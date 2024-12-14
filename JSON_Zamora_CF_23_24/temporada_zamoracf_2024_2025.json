@@ -645,6 +645,44 @@
     "estadio": "Nou Estadi Costa Daurada",
   
     "resultado": {
+        "local": 1,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+
+            { "jugador": "Ander Gorostidi" }
+
+        ],
+        "visitante": []
+    },
+  
+    "asistencias": {
+        "local": [
+
+            { "jugador": "Jaume Jardí"}
+
+        ],
+        "visitante": []
+    },
+  
+    "notas": []
+  },
+
+  {
+    "id": 18,
+    "fecha": "2024-12-22",
+    "hora": "19:30",
+  
+    "equipos": {
+        "local": "Zamora C.F",
+        "visitante": "C.D Arenteiro"
+    },
+  
+    "estadio": "Ruta de la Plata",
+  
+    "resultado": {
         "local": 0,
         "visitante": 0
     },
@@ -679,16 +717,16 @@
   },
 
   {
-    "id": 18,
-    "fecha": "2024-12-22",
-    "hora": "19:30",
+    "id": 19,
+    "fecha": "2025-1-12",
+    "hora": "12:00",
   
     "equipos": {
-        "local": "Zamora C.F",
-        "visitante": "C.D Arenteiro"
+        "local": "Real Unión Club",
+        "visitante": "Zamora C.F"
     },
   
-    "estadio": "Ruta de la Plata",
+    "estadio": "Stadium Gal",
   
     "resultado": {
         "local": 0,
