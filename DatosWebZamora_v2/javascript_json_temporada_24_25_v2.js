@@ -680,34 +680,28 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 0,
+                "local": 3,
                 "visitante": 0
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Carlos Gutierrez" },
+                    { "jugador": "Kike Márquez (Penalti)" },
+                    { "jugador": "Joel Priego" }
         
                 ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_goleador5" }
-        
-                ]
+                "visitante": []
             },
           
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Roni"}
         
                 ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ]
+                "visitante": []
             },
           
             "notas": []
