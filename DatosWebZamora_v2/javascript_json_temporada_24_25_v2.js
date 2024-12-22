@@ -133,9 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "goles": {
-                "local": [
-                    { "jugador": "Prueba_goleador5" }
-                ],
+                "local": [],
                 "visitante": [
           
                     { "jugador": "Luis Chacón" }
@@ -491,7 +489,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ],
                 "visitante": [
         
-                    { "jugador": "Kikie Márquez (Penalti)" }
+                    { "jugador": "Kike Márquez (Penalti)" }
         
                 ]
             },
