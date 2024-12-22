@@ -687,7 +687,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "goles": {
                 "local": [
         
-                    { "jugador": "Carlos Gutierrez" },
+                    { "jugador": "Carlos Gutiérrez" },
                     { "jugador": "Kike Márquez (Penalti)" },
                     { "jugador": "Joel Priego" }
         
