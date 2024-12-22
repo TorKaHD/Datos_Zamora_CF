@@ -1,6 +1,6 @@
 {
     
-    "pretemporada23_24_zamoracf":
+    "temporada24_25_zamoracf":
     
     [
 
@@ -147,9 +147,7 @@
     },
   
     "asistencias": {
-        "local": [
-          { "jugador": "Prueba_asistente5"}
-        ],
+        "local": [],
         "visitante": [
           { "jugador": "Antón Escobar" }
         ]
@@ -494,7 +492,7 @@
         ],
         "visitante": [
 
-            { "jugador": "Kikie Márquez (Penalti)" }
+            { "jugador": "Kike Márquez (Penalti)" }
 
         ]
     },
