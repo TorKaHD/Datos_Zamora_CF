@@ -748,7 +748,53 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             },
           
-            "notas": []
+            "notas": ["Último partido de la primera vuelta."]
+          },
+
+          {
+            "id": 20,
+            "fecha": "2025-1-19",
+            "hora": "12:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "C.A Osasuna B"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": ["Primer partido de la segunda vuelta."]
           }
       
     ];
