@@ -1,4 +1,4 @@
-[logo]: DatosWebZamora_v2/logo_zamora_200.png "Logo Title Text 2"
+<div align = "center"><img src = "DatosWebZamora_v2/logo_zamora_200.png"></img></div>
 
 # Datos Zamora Club de Fútbol
 
