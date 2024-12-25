@@ -2,7 +2,7 @@
 
 # Datos Zamora Club de Fútbol
 
-## Archivos de los resultados del Zamora Club de Fútbol a partir de la temporada 2023-2024.
+### Archivos de los resultados del Zamora Club de Fútbol a partir de la temporada 2023-2024.
 
 - Temporada 2023-2024 completada.
 
