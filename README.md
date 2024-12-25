@@ -1,3 +1,5 @@
+[logo]: DatosWebZamora_v2/logo_zamora_200.png "Logo Title Text 2"
+
 # Datos Zamora Club de Fútbol
 
 ## Archivos de los resultados del Zamora Club de Fútbol a partir de la temporada 2023-2024.
