@@ -150,20 +150,21 @@ body, html {
     height: 100%;
     padding: 0;
     margin: 0;
+
 }
 .parallaxBg {
-
-    /* The image used */
+    /* La imagen usada */
     background-image: url("paralaje_zamora.png");
-
-    /* Full height */
+    
+    /* Altura completa */
     height: 45%; 
-
-    /* Create the parallax scrolling effect */
+    
+    /* Crear el efecto de scroll parallax */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .parallaxBg2 {
@@ -178,6 +179,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 :root {
@@ -190,3 +192,26 @@ body, html {
     color: #A9A9A9;
     box-shadow: inset 0 -2.5px 0 0 #A9A9A9; 
   }
+
+  /* Estilo para el scrollbar completo */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Estilo para la pista (track) del scrollbar */
+::-webkit-scrollbar-track {
+    background: #DCDCDC;
+    border-radius: 10px;
+}
+
+/* Estilo para el "pulgar" (thumb) del scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #ef4444;  /* Color rojo que coincide con border-red-500 */
+    border-radius: 10px;
+    border: 2px solid #DCDCDC;
+}
+
+/* Hover sobre el thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: #900718;  /* Un rojo ligeramente más oscuro al hacer hover */
+}
