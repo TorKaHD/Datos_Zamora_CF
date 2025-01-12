@@ -718,32 +718,30 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Stadium Gal",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 2
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Quique Rivero (Penalti)" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Roni" },
+                    { "jugador": "Kike Márquez" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ],
+                "local": [],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Rafa Tresaco"},
+                    { "jugador": "Luis Rivas" }
         
                 ]
             },
