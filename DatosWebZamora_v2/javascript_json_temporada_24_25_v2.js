@@ -839,8 +839,53 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": []
+          },
+
+          {
+            "id": 22,
+            "fecha": "2025-2-1",
+            "hora": "20:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "Bilbao Athletic"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
-      
     ];
 
     const jsonContainer = document.getElementById("jsonContainer");
