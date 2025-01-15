@@ -746,7 +746,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             },
           
-            "notas": ["Último partido de la primera vuelta."]
+            "notas": ["Último partido de la primera vuelta. Kike Marquez falló un penalti."]
           },
 
           {
