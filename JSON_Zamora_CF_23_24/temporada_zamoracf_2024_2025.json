@@ -876,6 +876,52 @@
     },
   
     "notas": []
+  },
+
+  {
+    "id": 23,
+    "fecha": "2025-2-8",
+    "hora": "20:00",
+  
+    "equipos": {
+        "local": "Sestao River Club",
+        "visitante": "Zamora C.F"
+    },
+  
+    "estadio": "Campo de Fútbol Las Llanas",
+  
+    "resultado": {
+        "local": 0,
+        "visitante": 0
+    },
+  
+    "goles": {
+        "local": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_goleador5" }
+
+        ]
+    },
+  
+    "asistencias": {
+        "local": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ],
+        "visitante": [
+
+            { "jugador": "Prueba_asistente5"}
+
+        ]
+    },
+  
+    "notas": []
   }
     
     ]
