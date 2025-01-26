@@ -796,34 +796,26 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Municipal de Tarazona",
           
             "resultado": {
-                "local": 0,
+                "local": 1,
                 "visitante": 0
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Adrián Fuentes" }
         
                 ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_goleador5" }
-        
-                ]
+                "visitante": []
             },
           
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Marc Trilles"}
         
                 ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ]
+                "visitante": []
             },
           
             "notas": []
