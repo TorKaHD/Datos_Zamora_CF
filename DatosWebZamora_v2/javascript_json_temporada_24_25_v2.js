@@ -911,6 +911,98 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": []
+          },
+
+          {
+            "id": 24,
+            "fecha": "2025-2-15",
+            "hora": "17:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "Barça Atlétic"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
+          },
+
+          {
+            "id": 25,
+            "fecha": "2025-2-23",
+            "hora": "12:00",
+          
+            "equipos": {
+                "local": "F.C Andorra",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Estadio Nacional de Andorra",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
     ];
 
