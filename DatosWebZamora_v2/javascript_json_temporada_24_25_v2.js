@@ -835,33 +835,22 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "resultado": {
                 "local": 0,
-                "visitante": 0
+                "visitante": 2
             },
           
             "goles": {
-                "local": [
-        
-                    { "jugador": "Prueba_goleador5" }
-        
-                ],
+                "local": [],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Xabi Irurita" },
+                    { "jugador": "Endika Buján" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ]
+                "local": [],
+                "visitante": []
             },
           
             "notas": []
