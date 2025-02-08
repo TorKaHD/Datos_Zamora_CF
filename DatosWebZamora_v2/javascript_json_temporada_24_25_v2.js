@@ -869,19 +869,19 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Campo de Fútbol Las Llanas",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Ion Etxaniz" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Kike Márquez" }
         
                 ]
             },
@@ -889,12 +889,12 @@ document.addEventListener("DOMContentLoaded", function () {
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Iago Herrerín"}
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Pito Camacho"}
         
                 ]
             },
