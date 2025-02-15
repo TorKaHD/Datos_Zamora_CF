@@ -905,51 +905,43 @@
             "notas": []
           },
 
-  {
-    "id": 24,
-    "fecha": "2025-2-15",
-    "hora": "17:00",
-  
-    "equipos": {
-        "local": "Zamora C.F",
-        "visitante": "Barça Atlétic"
-    },
-  
-    "estadio": "Ruta de la Plata",
-  
-    "resultado": {
-        "local": 0,
-        "visitante": 0
-    },
-  
-    "goles": {
-        "local": [
-
-            { "jugador": "Prueba_goleador5" }
-
-        ],
-        "visitante": [
-
-            { "jugador": "Prueba_goleador5" }
-
-        ]
-    },
-  
-    "asistencias": {
-        "local": [
-
-            { "jugador": "Prueba_asistente5"}
-
-        ],
-        "visitante": [
-
-            { "jugador": "Prueba_asistente5"}
-
-        ]
-    },
-  
-    "notas": []
-  },
+          {
+            "id": 24,
+            "fecha": "2025-2-15",
+            "hora": "17:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "Barça Atlétic"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 1,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Kike Márquez" }
+        
+                ],
+                "visitante": []
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "José Carlos"}
+        
+                ],
+                "visitante": []
+            },
+          
+            "notas": []
+          },
 
   {
     "id": 25,
