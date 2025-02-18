@@ -31,6 +31,12 @@ p {
     margin: 5px 0;
     font-family: 'Carrois Gothic', sans-serif;
     text-align: center;
+    max-width: 80ch;
+    
+}
+
+section {
+    padding-top: 40px;
 }
 
 .inicio_web {
