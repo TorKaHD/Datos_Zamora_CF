@@ -1030,6 +1030,52 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": []
+          },
+
+          {
+            "id": 27,
+            "fecha": "2025-3-9",
+            "hora": "17:30",
+          
+            "equipos": {
+                "local": "Cultural Leonesa",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Reino de León",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
     ];
 
