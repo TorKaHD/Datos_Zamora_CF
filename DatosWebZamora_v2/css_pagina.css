@@ -158,19 +158,46 @@ body, html {
     margin: 0;
 
 }
+/* Inicio efecto Parallax con box-shadow inferior */
+nav {
+    position: relative;
+    z-index: 1000; /* 🔼 Valor mayor que el del parallax */
+}
+
 .parallaxBg {
-    /* La imagen usada */
+    /* The image used */
     background-image: url("paralaje_zamora.png");
-    
-    /* Altura completa */
-    height: 45%; 
-    
-    /* Crear el efecto de scroll parallax */
+
+    /* Full height */
+    height: 45%;
+
+    /* Parallax effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
+    /* Fix for shadow rendering */
+    position: relative;
+    z-index: 10;
+
+    /* Intense bottom drop-shadow */
+    box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.6);
+}
+.parallaxBg::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    pointer-events: none;
+    z-index: 9;
 }
 
 .parallaxBg2 {
@@ -178,23 +205,36 @@ body, html {
     background-image: url("estadio_zamora.png");
 
     /* Full height */
-    height: 45%; 
+    height: 45%;
 
-    /* Create the parallax scrolling effect */
+    /* Parallax effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+    /* Fix for shadow rendering */
+    position: relative;
+    z-index: 10;
+
+    /* Intense bottom drop-shadow */
+    box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.6);
 }
 
-:root {
-    --tri-base: 40px
-  }
-
-  /* Bootstrap */
-
-  .dropdown-item:hover {
-    color: #A9A9A9;
-    box-shadow: inset 0 -2.5px 0 0 #A9A9A9; 
-  }
+/* Fallback shadow for browsers with parallax issues */
+.parallaxBg2::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    pointer-events: none;
+    z-index: 9;
+}
+/* Fin efecto Parallax con box-shadow inferior */
