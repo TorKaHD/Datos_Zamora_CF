@@ -1,37 +1,85 @@
-// Función que actualiza la hora, fecha y día de la semana
-function actualizarReloj() {
-    const ahora = new Date();  // Obtenemos el objeto Date con la fecha y hora actual
-
-    // Obtenemos la hora, minutos y segundos con dos dígitos (añade un 0 delante si es necesario)
-    const hora = ahora.getHours().toString().padStart(2, '0');     // Obtiene la hora actual
-    const minutos = ahora.getMinutes().toString().padStart(2, '0'); // Obtiene los minutos actuales
-    const segundos = ahora.getSeconds().toString().padStart(2, '0'); // Obtiene los segundos actuales
-
-    // Configuramos las opciones para obtener el día de la semana y la fecha (día, mes, año)
-    const opcionesFecha = { weekday: 'long', day: 'numeric', month: 'numeric', year: 'numeric' };
+/**
+ * FUNCIÓN PRINCIPAL: actualizarReloj
+ * Actualiza los elementos HTML con la hora y fecha actualizadas, aplicando formato específico.
+ * @param {Date} fecha - Objeto Date con la fecha y hora actuales.
+ * @param {string} [timeZone] - Zona horaria (por defecto: la del navegador).
+ */
+function actualizarReloj(fecha, timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone) {
     
-    // Obtenemos la fecha con el día de la semana, en el formato local de España ('es-ES')
-    const fechaOriginal = ahora.toLocaleDateString('es-ES', opcionesFecha);
+    // ================================================
+    // CONFIGURACIÓN DE OPCIONES DE FORMATEO
+    // ================================================
     
-    // Función para capitalizar la primera letra
-    const capitalizarPrimeraLetra = (texto) => {
-        return texto.charAt(0).toUpperCase() + texto.slice(1);
+    // Opciones para formatear la hora (ej: "14:05:23")
+    const opcionesHora = {
+        hour: '2-digit',      // Hora en 2 dígitos (09, 12, 23)
+        minute: '2-digit',    // Minutos en 2 dígitos
+        second: '2-digit',    // Segundos en 2 dígitos
+        timeZone: timeZone    // Zona horaria (ej: "Europe/Madrid")
     };
 
-    // Modificamos la fecha para capitalizar el día de la semana
-    const fecha = fechaOriginal.split(',').map((parte, index) => {
-        return index === 0 ? capitalizarPrimeraLetra(parte.trim()) : parte.trim();
-    }).join(', ');
+    // Opciones para formatear la fecha (ej: "sábado, 22 de febrero de 2025")
+    const opcionesFecha = {
+        weekday: 'long',     // Día de la semana completo (lunes, martes...)
+        day: 'numeric',      // Día del mes en número (1, 15, 31)
+        month: 'long',       // Mes en texto completo (febrero, marzo...)
+        year: 'numeric',     // Año en número (2024, 2025...)
+        timeZone: timeZone   // Zona horaria
+    };
 
-    // Mostramos la hora actualizada dentro del elemento con id "reloj"
-    document.getElementById('reloj').textContent = `${hora}:${minutos}:${segundos}`;
+    // ================================================
+    // FORMATEO DE HORA Y FECHA
+    // ================================================
+    
+    // Generar hora localizada (ej: "17:33:23")
+    const hora = fecha.toLocaleTimeString('es-ES', opcionesHora); 
+    
+    // Generar fecha localizada (ej: "sábado, 22 de febrero de 2025")
+    const fechaFormateada = fecha.toLocaleDateString('es-ES', opcionesFecha); 
+    
+    // ================================================
+    // POST-PROCESAMIENTO DE LA FECHA
+    // ================================================
+    
+    // Procesar la fecha para corregir formato y capitalización
+    const fechaFinal = fechaFormateada.split(',') // Dividir en partes: ["sábado", " 22 de febrero de 2025"]
+        .map((parte, index) => {
+            // Parte 1: Día de la semana (ej: "sábado")
+            if (index === 0) {
+                return parte.trim().charAt(0).toUpperCase() + parte.trim().slice(1); // "Sábado"
+            
+            // Parte 2: Fecha completa (ej: "22 de febrero de 2025")
+            } else {
+                return parte.trim()
+                    .split(' ') // Dividir en segmentos: ["22", "de", "febrero", "de", "2025"]
+                    .filter(segmento => segmento.toLowerCase() !== 'de') // Eliminar "de": ["22", "febrero", "2025"]
+                    .map((segmento, i) => {
+                        // Capitalizar el mes (posición 1 después de filtrar)
+                        if (i === 1) return segmento.charAt(0).toUpperCase() + segmento.slice(1); // "Febrero"
+                        return segmento; // Mantener día y año sin cambios
+                    })
+                    .join(' '); // Unir: "22 Febrero 2025"
+            }
+        })
+        .join(', '); // Unir todo: "Sábado, 22 Febrero 2025"
 
-    // Mostramos la fecha y el día de la semana dentro del elemento con id "fecha"
-    document.getElementById('fecha1').textContent = fecha;
+    // ================================================
+    // ACTUALIZACIÓN DEL DOM
+    // ================================================
+    
+    // Mostrar la hora en el elemento con id "reloj"
+    document.getElementById('reloj').textContent = hora; 
+    
+    // Mostrar la fecha en el elemento con id "fecha1"
+    document.getElementById('fecha1').textContent = fechaFinal; 
 }
 
-// Llamamos a la función `actualizarReloj` cada 1000 milisegundos (1 segundo) para actualizar la hora en tiempo real
-setInterval(actualizarReloj, 1000);
+// ================================================
+// INICIALIZACIÓN Y EJECUCIÓN CONTINUA
+// ================================================
 
-// Llamamos a la función inmediatamente cuando la página se carga para mostrar la hora y la fecha al instante
-actualizarReloj();
+// Ejecutar al cargar la página (sin esperar 1 segundo)
+actualizarReloj(new Date()); 
+
+// Actualizar cada segundo (1000ms)
+setInterval(() => actualizarReloj(new Date()), 1000);
