@@ -953,19 +953,20 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Estadio Nacional de Andorra",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 2,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Manu Nieto" },
+                    { "jugador": "Manu Nieto" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Pito Camacho" }
         
                 ]
             },
@@ -973,12 +974,13 @@ document.addEventListener("DOMContentLoaded", function () {
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Diego Alende"},
+                    { "jugador": "Christos Almpanis" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Rufo Lucero"}
         
                 ]
             },
