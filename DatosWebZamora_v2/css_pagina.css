@@ -158,83 +158,66 @@ body, html {
     margin: 0;
 
 }
+
 /* Inicio efecto Parallax con box-shadow inferior */
+
+/* ============================================= */
+/* EFECTO PARALLAX CON SOMBRA INFERIOR MEJORADA */
+/* ============================================= */
+
 nav {
     position: relative;
-    z-index: 1000; /* 🔼 Valor mayor que el del parallax */
+    z-index: 1000; /* Asegura que el menú esté sobre todo */
 }
 
-.parallaxBg {
-    /* The image used */
-    background-image: url("paralaje_zamora.png");
-
-    /* Full height */
+.parallaxBg, .parallaxBg2 {
+    /* Configuración base mejorada */
     height: 45%;
-
-    /* Parallax effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* Fix for shadow rendering */
     position: relative;
-    z-index: 10;
-
-    /* Intense bottom drop-shadow */
-    box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.6);
+    
+    /* Sombra 3D mejorada (efecto "flotación") */
+    box-shadow: 
+        0 45px 80px -25px rgba(0, 0, 0, 0.65),
+        0 30px 30px -20px rgba(0, 0, 0, 0.3),
+        inset 0 -15px 30px -10px rgba(255, 255, 255, 0.15); /* 🔼 Luz ambiental */
+    
+    /* Borde dinámico */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateZ(0); /* Aceleración GPU */
 }
-.parallaxBg::after {
+
+/* Pseudo-elemento para efecto de "caída de luz" */
+.parallaxBg::after, .parallaxBg2::after {
     content: "";
     position: absolute;
-    bottom: -25px;
+    bottom: -40px;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 80px;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.15) 30%,
         rgba(0, 0, 0, 0) 100%
     );
     pointer-events: none;
     z-index: 9;
+    filter: blur(8px);
+    mix-blend-mode: multiply; /* 🎨 Mejor integración cromática */
+}
+
+/* Configuración específica de imágenes */
+.parallaxBg {
+    background-image: url("paralaje_zamora.png");
+    z-index: 15;
 }
 
 .parallaxBg2 {
-    /* The image used */
     background-image: url("estadio_zamora.png");
-
-    /* Full height */
-    height: 45%;
-
-    /* Parallax effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* Fix for shadow rendering */
-    position: relative;
     z-index: 10;
-
-    /* Intense bottom drop-shadow */
-    box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.6);
-}
-
-/* Fallback shadow for browsers with parallax issues */
-.parallaxBg2::after {
-    content: "";
-    position: absolute;
-    bottom: -25px;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.45) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    pointer-events: none;
-    z-index: 9;
 }
 /* Fin efecto Parallax con box-shadow inferior */
