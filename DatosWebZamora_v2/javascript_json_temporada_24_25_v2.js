@@ -1001,19 +1001,20 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 2,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Rafa Tresaco" },
+                    { "jugador": "Rafa Tresaco" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Alex Valiño" }
         
                 ]
             },
@@ -1021,12 +1022,12 @@ document.addEventListener("DOMContentLoaded", function () {
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Rufo Lucero"}
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Bittor Isuskiza"}
         
                 ]
             },
