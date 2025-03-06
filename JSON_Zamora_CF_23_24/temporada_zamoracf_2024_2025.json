@@ -136,9 +136,7 @@
     },
   
     "goles": {
-        "local": [
-            { "jugador": "Prueba_goleador5" }
-        ],
+        "local": [],
         "visitante": [
   
             { "jugador": "Luis Chacón" }
