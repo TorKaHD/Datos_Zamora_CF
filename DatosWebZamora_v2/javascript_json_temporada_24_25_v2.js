@@ -1125,6 +1125,51 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": []
+          },
+          {
+            "id": 29,
+            "fecha": "2025-3-22",
+            "hora": "18:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "Gimnástic de Tarragona"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
     ];
 
