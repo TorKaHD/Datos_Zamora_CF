@@ -142,9 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "asistencias": {
-                "local": [
-                  { "jugador": "Prueba_asistente5"}
-                ],
+                "local": [],
                 "visitante": [
                   { "jugador": "Antón Escobar" }
                 ]
