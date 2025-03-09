@@ -1046,19 +1046,19 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Reino de León",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Rafa Tresaco" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Quique Fornos" }
         
                 ]
             },
@@ -1066,12 +1066,12 @@ document.addEventListener("DOMContentLoaded", function () {
             "asistencias": {
                 "local": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Carlos Calderón"}
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Kike Márquez"}
         
                 ]
             },
