@@ -1168,6 +1168,52 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "notas": []
+          },
+
+          {
+            "id": 30,
+            "fecha": "2025-3-30",
+            "hora": "17:30",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "Unionistas de Salamanca"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
     ];
 
