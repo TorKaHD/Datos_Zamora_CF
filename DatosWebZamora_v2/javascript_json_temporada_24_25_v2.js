@@ -1093,37 +1093,26 @@ document.addEventListener("DOMContentLoaded", function () {
           
             "resultado": {
                 "local": 0,
-                "visitante": 0
+                "visitante": 1
             },
           
             "goles": {
-                "local": [
-        
-                    { "jugador": "Prueba_goleador5" }
-        
-                ],
+                "local": [],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Carlos Ramos" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ],
-                "visitante": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ]
+                "local": [],
+                "visitante": []
             },
           
             "notas": []
           },
+          
           {
             "id": 29,
             "fecha": "2025-3-22",
