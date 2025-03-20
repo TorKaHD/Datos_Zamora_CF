@@ -1252,6 +1252,52 @@
             },
           
             "notas": []
+          },
+
+          {
+            "id": 32,
+            "fecha": "2025-4-12",
+            "hora": "18:00",
+          
+            "equipos": {
+                "local": "Zamora C.F",
+                "visitante": "S.D Ponferradina"
+            },
+          
+            "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
           }
     
     ]
