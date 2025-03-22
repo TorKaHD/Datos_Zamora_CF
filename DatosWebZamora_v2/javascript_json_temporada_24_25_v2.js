@@ -1116,7 +1116,7 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             "id": 29,
             "fecha": "2025-3-22",
-            "hora": "18:00",
+            "hora": "19:00",
           
             "equipos": {
                 "local": "Zamora C.F",
@@ -1126,32 +1126,28 @@ document.addEventListener("DOMContentLoaded", function () {
             "estadio": "Ruta de la Plata",
           
             "resultado": {
-                "local": 0,
-                "visitante": 0
+                "local": 1,
+                "visitante": 1
             },
           
             "goles": {
                 "local": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Pito Camacho" }
         
                 ],
                 "visitante": [
         
-                    { "jugador": "Prueba_goleador5" }
+                    { "jugador": "Antoñín" }
         
                 ]
             },
           
             "asistencias": {
-                "local": [
-        
-                    { "jugador": "Prueba_asistente5"}
-        
-                ],
+                "local": [],
                 "visitante": [
         
-                    { "jugador": "Prueba_asistente5"}
+                    { "jugador": "Roberto Torres"}
         
                 ]
             },
