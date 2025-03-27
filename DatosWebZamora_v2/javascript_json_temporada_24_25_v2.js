@@ -1203,8 +1203,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
           {
             "id": 31,
-            "fecha": "2025-4-5",
-            "hora": "19:00",
+            "fecha": "2025-4-6",
+            "hora": "18:00",
           
             "equipos": {
                 "local": "Ourense C.F",
@@ -1258,6 +1258,52 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           
             "estadio": "Ruta de la Plata",
+          
+            "resultado": {
+                "local": 0,
+                "visitante": 0
+            },
+          
+            "goles": {
+                "local": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_goleador5" }
+        
+                ]
+            },
+          
+            "asistencias": {
+                "local": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ],
+                "visitante": [
+        
+                    { "jugador": "Prueba_asistente5"}
+        
+                ]
+            },
+          
+            "notas": []
+          },
+
+          {
+            "id": 33,
+            "fecha": "2025-4-20",
+            "hora": "18:00",
+          
+            "equipos": {
+                "local": "S.D Amorebieta",
+                "visitante": "Zamora C.F"
+            },
+          
+            "estadio": "Urritxe",
           
             "resultado": {
                 "local": 0,
